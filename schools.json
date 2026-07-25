@@ -1,0 +1,23 @@
+{
+  "_comment": "Bulk-import payload for POST /api/v1/admin/schools/bulk/ (adminapi.views.AdminSchoolBulkImportView). Send as {\"action\": \"preview\"|\"apply\", \"items\": <this array>}. Field shapes match accounts.models.School: `name` is the canonical English name, `email_domain` is the unique key the import matches existing rows against, `translations` holds localized fields keyed by language code (currently only zh-TW is populated, matching this project's supported languages).",
+  "items": [
+    { "name": "National Taiwan University", "email_domain": "ntu.edu.tw", "translations": { "zh-TW": { "name": "國立臺灣大學" } } },
+    { "name": "National Taiwan Normal University", "email_domain": "ntnu.edu.tw", "translations": { "zh-TW": { "name": "國立臺灣師範大學" } } },
+    { "name": "National Taiwan University of Science and Technology", "email_domain": "ntust.edu.tw", "translations": { "zh-TW": { "name": "國立臺灣科技大學" } } },
+    { "name": "National Chengchi University", "email_domain": "nccu.edu.tw", "translations": { "zh-TW": { "name": "國立政治大學" } } },
+    { "name": "National Tsing Hua University", "email_domain": "nthu.edu.tw", "translations": { "zh-TW": { "name": "國立清華大學" } } },
+    { "name": "National Yang Ming Chiao Tung University", "email_domain": "nycu.edu.tw", "translations": { "zh-TW": { "name": "國立陽明交通大學" } } },
+    { "name": "National Cheng Kung University", "email_domain": "ncku.edu.tw", "translations": { "zh-TW": { "name": "國立成功大學" } } },
+    { "name": "National Central University", "email_domain": "ncu.edu.tw", "translations": { "zh-TW": { "name": "國立中央大學" } } },
+    { "name": "National Chung Hsing University", "email_domain": "nchu.edu.tw", "translations": { "zh-TW": { "name": "國立中興大學" } } },
+    { "name": "National Chung Cheng University", "email_domain": "ccu.edu.tw", "translations": { "zh-TW": { "name": "國立中正大學" } } },
+    { "name": "National Sun Yat-sen University", "email_domain": "nsysu.edu.tw", "translations": { "zh-TW": { "name": "國立中山大學" } } },
+    { "name": "National Taipei University of Technology", "email_domain": "ntut.edu.tw", "translations": { "zh-TW": { "name": "國立臺北科技大學" } } },
+    { "name": "Fu Jen Catholic University", "email_domain": "fju.edu.tw", "translations": { "zh-TW": { "name": "輔仁大學" } } },
+    { "name": "Soochow University", "email_domain": "scu.edu.tw", "translations": { "zh-TW": { "name": "東吳大學" } } },
+    { "name": "Tamkang University", "email_domain": "tku.edu.tw", "translations": { "zh-TW": { "name": "淡江大學" } } },
+    { "name": "Tunghai University", "email_domain": "thu.edu.tw", "translations": { "zh-TW": { "name": "東海大學" } } },
+    { "name": "Chinese Culture University", "email_domain": "sce.pccu.edu.tw", "translations": { "zh-TW": { "name": "中國文化大學" } } },
+    { "name": "Shih Hsin University", "email_domain": "shu.edu.tw", "translations": { "zh-TW": { "name": "世新大學" } } }
+  ]
+}
