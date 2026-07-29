@@ -1,23 +1,823 @@
 {
-  "_comment": "Bulk-import payload for POST /api/v1/admin/schools/bulk/ (adminapi.views.AdminSchoolBulkImportView). Send as {\"action\": \"preview\"|\"apply\", \"items\": <this array>}. Field shapes match accounts.models.School: `name` is the canonical English name, `email_domain` is the unique key the import matches existing rows against, `translations` holds localized fields keyed by language code (currently only zh-TW is populated, matching this project's supported languages).",
   "items": [
-    { "name": "National Taiwan University", "email_domain": "ntu.edu.tw", "translations": { "zh-TW": { "name": "國立臺灣大學" } } },
-    { "name": "National Taiwan Normal University", "email_domain": "ntnu.edu.tw", "translations": { "zh-TW": { "name": "國立臺灣師範大學" } } },
-    { "name": "National Taiwan University of Science and Technology", "email_domain": "ntust.edu.tw", "translations": { "zh-TW": { "name": "國立臺灣科技大學" } } },
-    { "name": "National Chengchi University", "email_domain": "nccu.edu.tw", "translations": { "zh-TW": { "name": "國立政治大學" } } },
-    { "name": "National Tsing Hua University", "email_domain": "nthu.edu.tw", "translations": { "zh-TW": { "name": "國立清華大學" } } },
-    { "name": "National Yang Ming Chiao Tung University", "email_domain": "nycu.edu.tw", "translations": { "zh-TW": { "name": "國立陽明交通大學" } } },
-    { "name": "National Cheng Kung University", "email_domain": "ncku.edu.tw", "translations": { "zh-TW": { "name": "國立成功大學" } } },
-    { "name": "National Central University", "email_domain": "ncu.edu.tw", "translations": { "zh-TW": { "name": "國立中央大學" } } },
-    { "name": "National Chung Hsing University", "email_domain": "nchu.edu.tw", "translations": { "zh-TW": { "name": "國立中興大學" } } },
-    { "name": "National Chung Cheng University", "email_domain": "ccu.edu.tw", "translations": { "zh-TW": { "name": "國立中正大學" } } },
-    { "name": "National Sun Yat-sen University", "email_domain": "nsysu.edu.tw", "translations": { "zh-TW": { "name": "國立中山大學" } } },
-    { "name": "National Taipei University of Technology", "email_domain": "ntut.edu.tw", "translations": { "zh-TW": { "name": "國立臺北科技大學" } } },
-    { "name": "Fu Jen Catholic University", "email_domain": "fju.edu.tw", "translations": { "zh-TW": { "name": "輔仁大學" } } },
-    { "name": "Soochow University", "email_domain": "scu.edu.tw", "translations": { "zh-TW": { "name": "東吳大學" } } },
-    { "name": "Tamkang University", "email_domain": "tku.edu.tw", "translations": { "zh-TW": { "name": "淡江大學" } } },
-    { "name": "Tunghai University", "email_domain": "thu.edu.tw", "translations": { "zh-TW": { "name": "東海大學" } } },
-    { "name": "Chinese Culture University", "email_domain": "sce.pccu.edu.tw", "translations": { "zh-TW": { "name": "中國文化大學" } } },
-    { "name": "Shih Hsin University", "email_domain": "shu.edu.tw", "translations": { "zh-TW": { "name": "世新大學" } } }
+    {
+      "name": "National Taiwan University",
+      "email_domain": "ntu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺灣大學"
+        }
+      }
+    },
+    {
+      "name": "National Taiwan Normal University",
+      "email_domain": "ntnu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺灣師範大學"
+        }
+      }
+    },
+    {
+      "name": "National Taiwan University of Science and Technology",
+      "email_domain": "ntust.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺灣科技大學"
+        }
+      }
+    },
+    {
+      "name": "National Chengchi University",
+      "email_domain": "nccu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立政治大學"
+        }
+      }
+    },
+    {
+      "name": "National Tsing Hua University",
+      "email_domain": "nthu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立清華大學"
+        }
+      }
+    },
+    {
+      "name": "National Yang Ming Chiao Tung University",
+      "email_domain": "nycu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立陽明交通大學"
+        }
+      }
+    },
+    {
+      "name": "National Cheng Kung University",
+      "email_domain": "ncku.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立成功大學"
+        }
+      }
+    },
+    {
+      "name": "National Central University",
+      "email_domain": "ncu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立中央大學"
+        }
+      }
+    },
+    {
+      "name": "National Chung Hsing University",
+      "email_domain": "nchu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立中興大學"
+        }
+      }
+    },
+    {
+      "name": "National Chung Cheng University",
+      "email_domain": "ccu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立中正大學"
+        }
+      }
+    },
+    {
+      "name": "National Sun Yat-sen University",
+      "email_domain": "nsysu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立中山大學"
+        }
+      }
+    },
+    {
+      "name": "National Taipei University of Technology",
+      "email_domain": "ntut.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺北科技大學"
+        }
+      }
+    },
+    {
+      "name": "Fu Jen Catholic University",
+      "email_domain": "fju.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "輔仁大學"
+        }
+      }
+    },
+    {
+      "name": "Soochow University",
+      "email_domain": "scu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "東吳大學"
+        }
+      }
+    },
+    {
+      "name": "Tamkang University",
+      "email_domain": "tku.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "淡江大學"
+        }
+      }
+    },
+    {
+      "name": "Tunghai University",
+      "email_domain": "thu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "東海大學"
+        }
+      }
+    },
+    {
+      "name": "Chinese Culture University",
+      "email_domain": "sce.pccu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "中國文化大學"
+        }
+      }
+    },
+    {
+      "name": "Shih Hsin University",
+      "email_domain": "shu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "世新大學"
+        }
+      }
+    },
+    {
+      "name": "Aletheia University",
+      "email_domain": "au.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "真理大學"
+        }
+      }
+    },
+    {
+      "name": "Chang Gung University",
+      "email_domain": "cgu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "長庚大學"
+        }
+      }
+    },
+    {
+      "name": "Chia Nana College of Pharmacy and Science",
+      "email_domain": "chna.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "私立嘉南藥理大學"
+        }
+      }
+    },
+    {
+      "name": "Chung Hua University",
+      "email_domain": "chu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "中華大學"
+        }
+      }
+    },
+    {
+      "name": "Chang Jung University",
+      "email_domain": "cju.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "長榮大學"
+        }
+      }
+    },
+    {
+      "name": "Ching Kuo Institue of Management & Health",
+      "email_domain": "cku.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "清國管理暨健康學院"
+        }
+      }
+    },
+    {
+      "name": "China Medical College",
+      "email_domain": "cmc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "中國醫藥大學"
+        }
+      }
+    },
+    {
+      "name": "Central Police University",
+      "email_domain": "cpu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立中央警察大學"
+        }
+      }
+    },
+    {
+      "name": "Chung Shan Medical and Dental College",
+      "email_domain": "csmc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "中山醫藥學院"
+        }
+      }
+    },
+    {
+      "name": "Chung Yuan Christian University",
+      "email_domain": "cycu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "中原大學"
+        }
+      }
+    },
+    {
+      "name": "Chao Yang University of Science and Technology",
+      "email_domain": "cyut.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "朝陽科技大學"
+        }
+      }
+    },
+    {
+      "name": "Da-Yeh University",
+      "email_domain": "dyu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "大葉大學"
+        }
+      }
+    },
+    {
+      "name": "Feng Chia University",
+      "email_domain": "fcu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "逢甲大學"
+        }
+      }
+    },
+    {
+      "name": "Hsuan Chuang University",
+      "email_domain": "hcu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "玄奘大學"
+        }
+      }
+    },
+    {
+      "name": "Huafan University",
+      "email_domain": "hfu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "華梵大學"
+        }
+      }
+    },
+    {
+      "name": "I-Shou University",
+      "email_domain": "isu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "義守大學"
+        }
+      }
+    },
+    {
+      "name": "Kaohsiung Medical College",
+      "email_domain": "kmc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "高雄醫學院"
+        }
+      }
+    },
+    {
+      "name": "Kung Shan Institute of Technology",
+      "email_domain": "ksit.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "公山技術學院"
+        }
+      }
+    },
+    {
+      "name": "Kun Shan University",
+      "email_domain": "ksu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "崑山科技大學"
+        }
+      }
+    },
+    {
+      "name": "LungHwa University of Science and Technology",
+      "email_domain": "lhu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "龍華科技大學"
+        }
+      }
+    },
+    {
+      "name": "Ling Tung University",
+      "email_domain": "ltc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "私立嶺東科技大學"
+        }
+      }
+    },
+    {
+      "name": "Ming Chuan University",
+      "email_domain": "mcu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "明志科技大學"
+        }
+      }
+    },
+    {
+      "name": "National Chung Hsing University, Taichung",
+      "email_domain": "nchu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立中興大學"
+        }
+      }
+    },
+    {
+      "name": "National Chung Hsing University, Taipei",
+      "email_domain": "nchulc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立中興大學"
+        }
+      }
+    },
+    {
+      "name": "National Chi Nan University",
+      "email_domain": "ncnu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立暨南國際大學"
+        }
+      }
+    },
+    {
+      "name": "National College of Physical Education and Sports",
+      "email_domain": "ncpes.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立體育學院"
+        }
+      }
+    },
+    {
+      "name": "National Changhua University of Education",
+      "email_domain": "ncue.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立彰化師範大學"
+        }
+      }
+    },
+    {
+      "name": "National Chiayi University",
+      "email_domain": "ncyu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立嘉義大學"
+        }
+      }
+    },
+    {
+      "name": "National Dong Hwa University",
+      "email_domain": "ndhu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立東華大學"
+        }
+      }
+    },
+    {
+      "name": "National Formosa University",
+      "email_domain": "nfu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立虎尾科技大學"
+        }
+      }
+    },
+    {
+      "name": "National Hsin-Chu Teachers College",
+      "email_domain": "nhctc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立新竹師範學院"
+        }
+      }
+    },
+    {
+      "name": "National Hualien Teachers College",
+      "email_domain": "nhltc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立花蓮教育大學"
+        }
+      }
+    },
+    {
+      "name": "Nanhua University",
+      "email_domain": "nhu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "南華大學"
+        }
+      }
+    },
+    {
+      "name": "National Institute of the Arts",
+      "email_domain": "nia.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立藝術學院"
+        }
+      }
+    },
+    {
+      "name": "National Ilan University",
+      "email_domain": "niu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立宜蘭大學"
+        }
+      }
+    },
+    {
+      "name": "National Kaohsiung University of Science and Technology",
+      "email_domain": "nkust.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立高雄科技大學"
+        }
+      }
+    },
+    {
+      "name": "National Kaohsiung Normal University",
+      "email_domain": "nknu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立高雄師範大學"
+        }
+      }
+    },
+    {
+      "name": "National Open University",
+      "email_domain": "nou.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立開放大學"
+        }
+      }
+    },
+    {
+      "name": "National Pingtung Teachers College",
+      "email_domain": "npttc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立屏東師範學院"
+        }
+      }
+    },
+    {
+      "name": "National Pingtung University of Science and Technology",
+      "email_domain": "npust.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立屏東科技大學"
+        }
+      }
+    },
+    {
+      "name": "National Sun Yat-Sen University",
+      "email_domain": "nsysu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立中山大學"
+        }
+      }
+    },
+    {
+      "name": "National Taiwan College of the Arts",
+      "email_domain": "ntca.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺灣藝術學院"
+        }
+      }
+    },
+    {
+      "name": "National Taipei College of Nursing",
+      "email_domain": "ntcn.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺北護理健康大學"
+        }
+      }
+    },
+    {
+      "name": "National Taiwan College of Physical Education and Sports",
+      "email_domain": "ntcpe.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺灣體育學院"
+        }
+      }
+    },
+    {
+      "name": "National Taichung Teachers College",
+      "email_domain": "ntctc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺中師範學院"
+        }
+      }
+    },
+    {
+      "name": "National Tsinghua University",
+      "email_domain": "nthu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立清華大學"
+        }
+      }
+    },
+    {
+      "name": "National Tainan Teachers College",
+      "email_domain": "ntntc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺南師範大學"
+        }
+      }
+    },
+    {
+      "name": "National Taiwan Ocean University",
+      "email_domain": "ntou.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺灣海洋大學"
+        }
+      }
+    },
+    {
+      "name": "National Taipei Teachers College",
+      "email_domain": "ntptc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺北教育大學"
+        }
+      }
+    },
+    {
+      "name": "National Taipei University",
+      "email_domain": "ntpu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺北大學"
+        }
+      }
+    },
+    {
+      "name": "National Taitung Teachers College",
+      "email_domain": "ntttc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺東師範學院"
+        }
+      }
+    },
+    {
+      "name": "National University of Kaohsiung",
+      "email_domain": "nuk.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立高雄大學"
+        }
+      }
+    },
+    {
+      "name": "National United University",
+      "email_domain": "nuu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立聯合大學"
+        }
+      }
+    },
+    {
+      "name": "Kaohsuing Open University",
+      "email_domain": "ouk.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "高雄開放大學"
+        }
+      }
+    },
+    {
+      "name": "Providence University",
+      "email_domain": "pu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "靜宜大學"
+        }
+      }
+    },
+    {
+      "name": "Shih Chien University",
+      "email_domain": "scc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "實踐大學"
+        }
+      }
+    },
+    {
+      "name": "St. John's & St. Mary's Institute of Technology",
+      "email_domain": "sjsmit.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "聖約翰暨聖瑪麗技術學院"
+        }
+      }
+    },
+    {
+      "name": "Southern Taiwan University of Technology",
+      "email_domain": "stut.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "南台科技大學"
+        }
+      }
+    },
+    {
+      "name": "Tzu Chi College of Medicine and Humanities",
+      "email_domain": "tcu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "慈濟醫護管理學院"
+        }
+      }
+    },
+    {
+      "name": "TaiChung Healthcare and Management University",
+      "email_domain": "thmu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "台灣醫護管理大學"
+        }
+      }
+    },
+    {
+      "name": "Taipei Medical College",
+      "email_domain": "tmc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "臺北醫學院"
+        }
+      }
+    },
+    {
+      "name": "Taipei Municipal Teachers College",
+      "email_domain": "tmtc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "臺北市立師範學院"
+        }
+      }
+    },
+    {
+      "name": "Tainan National College of the Arts",
+      "email_domain": "tnca.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺南藝術大學"
+        }
+      }
+    },
+    {
+      "name": "Taipei Physical Education College",
+      "email_domain": "tpec.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "臺北體育學院"
+        }
+      }
+    },
+    {
+      "name": "Tatung Institute of Technology",
+      "email_domain": "ttit.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "大同技術學院"
+        }
+      }
+    },
+    {
+      "name": "TaTung University",
+      "email_domain": "ttu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "大同大學"
+        }
+      }
+    },
+    {
+      "name": "National Yunlin University of Science and Technology",
+      "email_domain": "yuntech.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立雲林科技大學"
+        }
+      }
+    },
+    {
+      "name": "Yuan Ze University",
+      "email_domain": "yzu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "元智大學"
+        }
+      }
+    },
+    {
+      "name": "Lingdong University of Science and Technology",
+      "email_domain": "ltu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "嶺東科技大學"
+        }
+      }
+    },
+    {
+      "name": "National Taipei University of Education",
+      "email_domain": "ntue.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺北教育大學"
+        }
+      }
+    },
+    {
+      "name": "University of Taipei",
+      "email_domain": "utaipei.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "臺北大學"
+        }
+      }
+    },
+    {
+      "name": "National Chin-Yi University of Technology",
+      "email_domain": "ncut.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立勤益科技大學"
+        }
+      }
+    },
+    {
+      "name": "Chihlee University of Technology",
+      "email_domain": "chihlee.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "致理科技大學"
+        }
+      }
+    }
   ]
 }
