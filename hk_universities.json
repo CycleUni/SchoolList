@@ -1,0 +1,233 @@
+[
+  {
+    "web_pages": [
+      "https://www.chuhai.edu.hk/"
+    ],
+    "name": "Hong Kong Chu Hai College",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "chuhai.edu.hk"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港珠海學院"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.cityu.edu.hk/"
+    ],
+    "name": "City University of Hong Kong",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "cityu.edu.hk",
+      "um.cityu.edu.hk",
+      "my.cityu.edu.hk"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港城市大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.cuhk.edu.hk/"
+    ],
+    "name": "The Chinese University of Hong Kong",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "cuhk.edu.hk",
+      "link.cuhk.edu.hk"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港中文大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.hkapa.edu/"
+    ],
+    "name": "The Hong Kong Academy for Performing Arts",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "hkapa.edu"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港演藝學院"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.hkbu.edu.hk/"
+    ],
+    "name": "Hong Kong Baptist University",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "hkbu.edu.hk",
+      "life.hkbu.edu.hk",
+      "associate.hkbu.edu.hk"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港浸會大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.hksyu.edu/"
+    ],
+    "name": "Hong Kong Shue Yan University",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "hksyu.edu"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港樹仁大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.hku.hk/"
+    ],
+    "name": "The University of Hong Kong",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "hku.hk"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.ln.edu.hk/"
+    ],
+    "name": "Lingnan University",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "ln.edu.hk",
+      "ln.hk"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "嶺南大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.hkmu.edu.hk/"
+    ],
+    "name": "Hong Kong Metropolitan University",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "hkmu.edu.hk",
+      "ouhk.edu.hk"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港都會大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.polyu.edu.hk/"
+    ],
+    "name": "The Hong Kong Polytechnic University",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "polyu.edu.hk",
+      "connect.polyu.hk"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港理工大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://hkust.edu.hk/"
+    ],
+    "name": "The Hong Kong University of Science and Technology",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "ust.hk",
+      "connect.ust.hk"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.eduhk.hk/"
+    ],
+    "name": "The Education University of Hong Kong",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "s.eduhk.hk",
+      "eduhk.hk"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港教育大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "http://www.hsu.edu.hk/"
+    ],
+    "name": "The Hang Seng University of Hong Kong",
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "domains": [
+      "hsu.edu.hk"
+    ],
+    "country": "Hong Kong",
+    "translations": {
+      "zh-HK": {
+        "name": "香港恒生大學"
+      }
+    }
+  }
+]

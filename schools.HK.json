@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "name": "Hong Kong Chu Hai College",
+      "email_domain": "chuhai.edu.hk",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港珠海學院"
+        }
+      }
+    },
+    {
+      "name": "City University of Hong Kong",
+      "email_domain": "cityu.edu.hk",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港城市大學"
+        }
+      }
+    },
+    {
+      "name": "The Chinese University of Hong Kong",
+      "email_domain": "cuhk.edu.hk",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港中文大學"
+        }
+      }
+    },
+    {
+      "name": "The Hong Kong Academy for Performing Arts",
+      "email_domain": "hkapa.edu",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港演藝學院"
+        }
+      }
+    },
+    {
+      "name": "Hong Kong Baptist University",
+      "email_domain": "hkbu.edu.hk",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港浸會大學"
+        }
+      }
+    },
+    {
+      "name": "Hong Kong Shue Yan University",
+      "email_domain": "hksyu.edu",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港樹仁大學"
+        }
+      }
+    },
+    {
+      "name": "The University of Hong Kong",
+      "email_domain": "hku.hk",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港大學"
+        }
+      }
+    },
+    {
+      "name": "Lingnan University",
+      "email_domain": "ln.edu.hk",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "嶺南大學"
+        }
+      }
+    },
+    {
+      "name": "Hong Kong Metropolitan University",
+      "email_domain": "hkmu.edu.hk",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港都會大學"
+        }
+      }
+    },
+    {
+      "name": "The Hong Kong Polytechnic University",
+      "email_domain": "polyu.edu.hk",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港理工大學"
+        }
+      }
+    },
+    {
+      "name": "The Hong Kong University of Science and Technology",
+      "email_domain": "ust.hk",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港科技大學"
+        }
+      }
+    },
+    {
+      "name": "The Education University of Hong Kong",
+      "email_domain": "s.eduhk.hk",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港教育大學"
+        }
+      }
+    },
+    {
+      "name": "The Hang Seng University of Hong Kong",
+      "email_domain": "hsu.edu.hk",
+      "region": "HK",
+      "translations": {
+        "zh-HK": {
+          "name": "香港恒生大學"
+        }
+      }
+    }
+  ]
+}
