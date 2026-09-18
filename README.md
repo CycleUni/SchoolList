@@ -5,7 +5,7 @@ JSON fixture for CycleUni's admin School bulk-import feature.
 - **Target API**: `POST /api/v1/admin/schools/bulk/` (`adminapi.views.AdminSchoolBulkImportView`, staff-only)
 - **Request body**: `{"action": "preview" | "apply", "items": [...]}` — send `schools.json`'s `items` array as-is
 - **Matching key**: `email_domain` (unique on the `School` model) — re-importing is idempotent; unchanged rows are skipped, differing rows are reported as `modified`
-- **Field shapes**: `name` is the canonical English name, `region` is the CycleUni `Region.code`, `translations` holds localized fields keyed by language code
+- **Field shapes**: `name` is the canonical English name, `region` is the CycleUni `Region.code`, `code` is the school's short code (e.g. `NTU`), `translations` holds localized fields keyed by language code
 
 Contents: 101 real universities — 88 Taiwanese (`region: "TW"`, `zh-TW` names) and 13 Hong Kong (`region: "HK"`, `zh-HK` names) — with their real student-email domains. Tested end-to-end against the live endpoint in `CycleUni-BE/tests/test_bulk_import_fixtures.py`.
 
@@ -17,6 +17,14 @@ The build script also outputs region-specific files (`schools.TW.json`, `schools
 `School.region` is non-null, and the import writes `item["region"]` straight into it. An item without a region fails the whole batch; an item with the wrong one lets students of one market verify with another market's campus domain. Every item therefore carries a region, and `4_build_schools.py` stamps it from `--region`.
 
 Regions are also why translations are not keyed to a fixed language: Taiwan uses `zh-TW`, Hong Kong `zh-HK`. Both are Traditional Chinese but differ in vocabulary, and CycleUni serves them as separate languages.
+
+## Short codes
+
+Every item carries a `code`: the short name the site selects and links schools by (`?school=NTU`). A code only has to be unique within its region — Taiwan's Hung Kuang University and the University of Hong Kong can both be `HKU` — so `4_build_schools.py` deduplicates per region, adding `-2`, `-3` on a clash.
+
+The default is derived the same way the backend derives it: the first label of `email_domain`, uppercased (`ntu.edu.tw` → `NTU`). Where that is not the school's usual short name, `CODE_OVERRIDES` in `4_build_schools.py` says what it should be (`s.eduhk.hk` → `EDUHK`, `ust.hk` → `HKUST`, …). An item that already has a `code` keeps it.
+
+`code` is optional to the import endpoint: without it a new school gets the derived default and an existing school keeps the code it has. With it, re-importing sets the code, and an item whose code another school in the region already uses fails the batch.
 
 ## Pipeline
 
