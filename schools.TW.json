@@ -966,7 +966,18 @@
         }
       },
       "region": "TW",
-      "code": "CHIHLEE"
+      "code": "CLUT"
+    },
+    {
+      "name": "Tatung University",
+      "email_domain": "ttu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "大同大學"
+        }
+      },
+      "region": "TW",
+      "code": "TTU"
     }
   ]
 }
