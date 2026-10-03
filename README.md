@@ -26,6 +26,20 @@ The default is derived the same way the backend derives it: the first label of `
 
 `code` is optional to the import endpoint: without it a new school gets the derived default and an existing school keeps the code it has. With it, re-importing sets the code, and an item whose code another school in the region already uses fails the batch.
 
+## Cities
+
+Every item that can carries a `city`: the CycleUni `City.code` its main campus is in (`core/default_cities.py` in the backend). Taiwan uses the 22 counties and cities by their ISO 3166-2:TW codes (`TPE`, `NWT`, `HSZ`, …). Hong Kong is a single city, so it is split into its three areas instead: `HKI` Hong Kong Island, `KLN` Kowloon, `NT` New Territories. When a student's school has no books, the home page and search show the rest of its city's.
+
+`CITY_BY_DOMAIN` in `4_build_schools.py` is the one place the mapping lives, and every run re-stamps `city` from it. A school missing from it gets no `city` key at all rather than `null`: on import, a missing key keeps whatever city an admin set, while `null` would clear it. Two schools are currently left out because their location could not be confirmed: `ksit.edu.tw` and `thmu.edu.tw`.
+
+To re-stamp cities without merging anything new in:
+
+```bash
+python3 4_build_schools.py --cities-only
+```
+
+An unknown city code fails the whole import batch (`admin.errSchoolCityUnknown`), like an invalid short code.
+
 ## Pipeline
 
 ```bash

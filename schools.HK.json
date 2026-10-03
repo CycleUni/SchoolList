@@ -9,7 +9,8 @@
           "name": "香港珠海學院"
         }
       },
-      "code": "CHUHAI"
+      "code": "CHUHAI",
+      "city": "NT"
     },
     {
       "name": "City University of Hong Kong",
@@ -20,7 +21,8 @@
           "name": "香港城市大學"
         }
       },
-      "code": "CITYU"
+      "code": "CITYU",
+      "city": "KLN"
     },
     {
       "name": "The Chinese University of Hong Kong",
@@ -31,7 +33,8 @@
           "name": "香港中文大學"
         }
       },
-      "code": "CUHK"
+      "code": "CUHK",
+      "city": "NT"
     },
     {
       "name": "The Hong Kong Academy for Performing Arts",
@@ -42,7 +45,8 @@
           "name": "香港演藝學院"
         }
       },
-      "code": "HKAPA"
+      "code": "HKAPA",
+      "city": "HKI"
     },
     {
       "name": "Hong Kong Baptist University",
@@ -53,7 +57,8 @@
           "name": "香港浸會大學"
         }
       },
-      "code": "HKBU"
+      "code": "HKBU",
+      "city": "KLN"
     },
     {
       "name": "Hong Kong Shue Yan University",
@@ -64,7 +69,8 @@
           "name": "香港樹仁大學"
         }
       },
-      "code": "HKSYU"
+      "code": "HKSYU",
+      "city": "HKI"
     },
     {
       "name": "The University of Hong Kong",
@@ -75,7 +81,8 @@
           "name": "香港大學"
         }
       },
-      "code": "HKU"
+      "code": "HKU",
+      "city": "HKI"
     },
     {
       "name": "Lingnan University",
@@ -86,7 +93,8 @@
           "name": "嶺南大學"
         }
       },
-      "code": "LINGU"
+      "code": "LINGU",
+      "city": "NT"
     },
     {
       "name": "Hong Kong Metropolitan University",
@@ -97,7 +105,8 @@
           "name": "香港都會大學"
         }
       },
-      "code": "HKMU"
+      "code": "HKMU",
+      "city": "KLN"
     },
     {
       "name": "The Hong Kong Polytechnic University",
@@ -108,7 +117,8 @@
           "name": "香港理工大學"
         }
       },
-      "code": "POLYU"
+      "code": "POLYU",
+      "city": "KLN"
     },
     {
       "name": "The Hong Kong University of Science and Technology",
@@ -119,7 +129,8 @@
           "name": "香港科技大學"
         }
       },
-      "code": "HKUST"
+      "code": "HKUST",
+      "city": "NT"
     },
     {
       "name": "The Education University of Hong Kong",
@@ -130,7 +141,8 @@
           "name": "香港教育大學"
         }
       },
-      "code": "EDUHK"
+      "code": "EDUHK",
+      "city": "NT"
     },
     {
       "name": "The Hang Seng University of Hong Kong",
@@ -141,7 +153,8 @@
           "name": "香港恒生大學"
         }
       },
-      "code": "HSU"
+      "code": "HSU",
+      "city": "NT"
     }
   ]
 }

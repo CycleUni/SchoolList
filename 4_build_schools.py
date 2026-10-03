@@ -10,6 +10,7 @@
   - translations 原樣帶過（台灣是 zh-TW、香港是 zh-HK），不寫死語言代碼
   - 每一筆都帶 region，對應 CycleUni 的 Region.code
   - 每一筆都帶 code（學校短碼，例如 NTU），同一地區內不重複；已有 code 的項目保留原值
+  - city 依 CITY_BY_DOMAIN 重新填入；表上沒有的學校不帶 city
 
 為什麼 region 是必填：後端 AdminSchoolBulkImportView 會把 item['region'] 直接
 寫進 School.region_id，而該欄位不可為空。少了它，整批匯入會在建立第一筆新學校
@@ -20,6 +21,7 @@
     --region      這批資料所屬地區代碼 (預設 TW)
     --source      schools.json 路徑 (預設 schools.json)
     --output      輸出檔路徑 (預設 schools.json)
+    --cities-only 不合併輸入檔，只依 CITY_BY_DOMAIN 重新填 city
 """
 
 import argparse
@@ -44,6 +46,69 @@ CODE_OVERRIDES = {
     "ln.edu.hk": "LINGU",
 }
 CODE_MAX_LENGTH = 20
+
+# 學校所屬城市：CycleUni City.code（後端 core/default_cities.py）。
+# 臺灣是 22 縣市的 ISO 3166-2:TW 代碼，以主校區所在地為準；香港分 HKI 港島、
+# KLN 九龍、NT 新界。所選學校沒有書時，首頁與搜尋會改顯示同城市的書。
+# 不在表上的學校不輸出 city 欄位，匯入時保留後台設定的城市，而不是清掉它。
+# 目前缺：ksit.edu.tw、thmu.edu.tw，查不到可信的所在地。
+CITY_BY_DOMAIN = {
+    # 臺北市
+    "ntu.edu.tw": "TPE", "ntnu.edu.tw": "TPE", "ntust.edu.tw": "TPE", "nccu.edu.tw": "TPE",
+    "ntut.edu.tw": "TPE", "scu.edu.tw": "TPE", "sce.pccu.edu.tw": "TPE", "shu.edu.tw": "TPE",
+    "mcu.edu.tw": "TPE", "nchulc.edu.tw": "TPE", "nia.edu.tw": "TPE", "ntcn.edu.tw": "TPE",
+    "ntptc.edu.tw": "TPE", "scc.edu.tw": "TPE", "tmc.edu.tw": "TPE", "tmtc.edu.tw": "TPE",
+    "tpec.edu.tw": "TPE", "ttu.edu.tw": "TPE", "ntue.edu.tw": "TPE", "utaipei.edu.tw": "TPE",
+    # 新北市
+    "fju.edu.tw": "NWT", "tku.edu.tw": "NWT", "au.edu.tw": "NWT", "hfu.edu.tw": "NWT",
+    "nou.edu.tw": "NWT", "ntca.edu.tw": "NWT", "ntpu.edu.tw": "NWT", "sjsmit.edu.tw": "NWT",
+    "chihlee.edu.tw": "NWT",
+    # 基隆市
+    "cku.edu.tw": "KEE", "ntou.edu.tw": "KEE",
+    # 桃園市
+    "ncu.edu.tw": "TAO", "cgu.edu.tw": "TAO", "cpu.edu.tw": "TAO", "cycu.edu.tw": "TAO",
+    "lhu.edu.tw": "TAO", "ncpes.edu.tw": "TAO", "yzu.edu.tw": "TAO",
+    # 新竹市
+    "nthu.edu.tw": "HSZ", "nycu.edu.tw": "HSZ", "chu.edu.tw": "HSZ", "hcu.edu.tw": "HSZ",
+    "nhctc.edu.tw": "HSZ",
+    # 苗栗縣
+    "nuu.edu.tw": "MIA",
+    # 臺中市
+    "nchu.edu.tw": "TXG", "thu.edu.tw": "TXG", "cmc.edu.tw": "TXG", "csmc.edu.tw": "TXG",
+    "cyut.edu.tw": "TXG", "fcu.edu.tw": "TXG", "ltc.edu.tw": "TXG", "ntcpe.edu.tw": "TXG",
+    "ntctc.edu.tw": "TXG", "pu.edu.tw": "TXG", "ltu.edu.tw": "TXG", "ncut.edu.tw": "TXG",
+    # 彰化縣
+    "dyu.edu.tw": "CHA", "ncue.edu.tw": "CHA",
+    # 南投縣
+    "ncnu.edu.tw": "NAN",
+    # 雲林縣
+    "nfu.edu.tw": "YUN", "yuntech.edu.tw": "YUN",
+    # 嘉義市
+    "ncyu.edu.tw": "CYI", "ttit.edu.tw": "CYI",
+    # 嘉義縣
+    "ccu.edu.tw": "CYQ", "nhu.edu.tw": "CYQ",
+    # 臺南市
+    "ncku.edu.tw": "TNN", "chna.edu.tw": "TNN", "cju.edu.tw": "TNN", "ksu.edu.tw": "TNN",
+    "ntntc.edu.tw": "TNN", "stut.edu.tw": "TNN", "tnca.edu.tw": "TNN",
+    # 高雄市
+    "nsysu.edu.tw": "KHH", "isu.edu.tw": "KHH", "kmc.edu.tw": "KHH", "nkust.edu.tw": "KHH",
+    "nknu.edu.tw": "KHH", "nuk.edu.tw": "KHH", "ouk.edu.tw": "KHH",
+    # 屏東縣
+    "npttc.edu.tw": "PIF", "npust.edu.tw": "PIF",
+    # 宜蘭縣
+    "niu.edu.tw": "ILA",
+    # 花蓮縣
+    "ndhu.edu.tw": "HUA", "nhltc.edu.tw": "HUA", "tcu.edu.tw": "HUA",
+    # 臺東縣
+    "ntttc.edu.tw": "TTT",
+    # 香港：港島
+    "hku.hk": "HKI", "hkapa.edu": "HKI", "hksyu.edu": "HKI",
+    # 香港：九龍
+    "cityu.edu.hk": "KLN", "hkbu.edu.hk": "KLN", "hkmu.edu.hk": "KLN", "polyu.edu.hk": "KLN",
+    # 香港：新界
+    "chuhai.edu.hk": "NT", "cuhk.edu.hk": "NT", "ln.edu.hk": "NT", "ust.hk": "NT",
+    "s.eduhk.hk": "NT", "hsu.edu.hk": "NT",
+}
 
 
 def normalize_code(value: str) -> str:
@@ -98,6 +163,7 @@ def main() -> int:
     parser.add_argument("--region", default="TW")
     parser.add_argument("--source", default="schools.json")
     parser.add_argument("--output", default="schools.json")
+    parser.add_argument("--cities-only", action="store_true")
     args = parser.parse_args()
 
     region = args.region.upper()
@@ -108,6 +174,8 @@ def main() -> int:
 
     with input_path.open("r", encoding="utf-8") as f:
         incoming: list[dict] = json.load(f)
+    if args.cities_only:
+        incoming = []
 
     existing_items: list[dict] = []
     if source_path.exists():
@@ -179,6 +247,16 @@ def main() -> int:
 
     assigned = assign_codes(merged)
 
+    # 每次重跑都以 CITY_BY_DOMAIN 為準，表上改了城市就會反映到輸出。
+    no_city: list[str] = []
+    for it in merged:
+        city = CITY_BY_DOMAIN.get(it.get("email_domain"))
+        if city:
+            it["city"] = city
+        else:
+            it.pop("city", None)
+            no_city.append(it.get("email_domain"))
+
     output = {"items": merged}
     tmp = output_path.with_suffix(output_path.suffix + ".tmp")
     with tmp.open("w", encoding="utf-8") as f:
@@ -205,6 +283,8 @@ def main() -> int:
         by_region[it.get("region", "(未設定)")] = by_region.get(it.get("region", "(未設定)"), 0) + 1
 
     print(f"既有項目: {len(existing_items)} 筆")
+    if no_city:
+        print(f"沒有城市 {len(no_city)} 筆: {', '.join(no_city)}", file=sys.stderr)
     print(f"從 {input_path.name} 新增 ({region}): {len(added)} 筆")
     if skipped:
         print(f"email_domain 已存在略過: {len(skipped)} 筆")
