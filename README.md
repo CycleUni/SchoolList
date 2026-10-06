@@ -7,7 +7,7 @@ JSON fixture for CycleUni's admin School bulk-import feature.
 - **Matching key**: `email_domain` (unique on the `School` model) — re-importing is idempotent; unchanged rows are skipped, differing rows are reported as `modified`
 - **Field shapes**: `name` is the canonical English name, `region` is the CycleUni `Region.code`, `code` is the school's short code (e.g. `NTU`), `translations` holds localized fields keyed by language code
 
-Contents: 101 real universities — 88 Taiwanese (`region: "TW"`, `zh-TW` names) and 13 Hong Kong (`region: "HK"`, `zh-HK` names) — with their real student-email domains. Tested end-to-end against the live endpoint in `CycleUni-BE/tests/test_bulk_import_fixtures.py`.
+Contents: 100 real universities — 87 Taiwanese (`region: "TW"`, `zh-TW` names) and 13 Hong Kong (`region: "HK"`, `zh-HK` names) — with their real student-email domains. Tested end-to-end against the live endpoint in `CycleUni-BE/tests/test_bulk_import_fixtures.py`.
 
 The build script also outputs region-specific files (`schools.TW.json`, `schools.HK.json`).
 - Use `schools.json` if you are a superuser and want to import everything at once.
@@ -30,7 +30,7 @@ The default is derived the same way the backend derives it: the first label of `
 
 Every item that can carries a `city`: the CycleUni `City.code` its main campus is in (`core/default_cities.py` in the backend). Taiwan uses the 22 counties and cities by their ISO 3166-2:TW codes (`TPE`, `NWT`, `HSZ`, …). Hong Kong is a single city, so it is split into its three areas instead: `HKI` Hong Kong Island, `KLN` Kowloon, `NT` New Territories. When a student's school has no books, the home page and search show the rest of its city's.
 
-`CITY_BY_DOMAIN` in `4_build_schools.py` is the one place the mapping lives, and every run re-stamps `city` from it. A school missing from it gets no `city` key at all rather than `null`: on import, a missing key keeps whatever city an admin set, while `null` would clear it. Two schools are currently left out because their location could not be confirmed: `ksit.edu.tw` and `thmu.edu.tw`.
+`CITY_BY_DOMAIN` in `4_build_schools.py` is the one place the mapping lives, and every run re-stamps `city` from it. A school missing from it gets no `city` key at all rather than `null`: on import, a missing key keeps whatever city an admin set, while `null` would clear it. Every school in the fixture is currently on it.
 
 To re-stamp cities without merging anything new in:
 

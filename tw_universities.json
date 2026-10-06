@@ -341,23 +341,6 @@
   },
   {
     "web_pages": [
-      "http://www.ksit.edu.tw/"
-    ],
-    "name": "Kung Shan Institute of Technology",
-    "alpha_two_code": "TW",
-    "state-province": null,
-    "domains": [
-      "ksit.edu.tw"
-    ],
-    "country": "Taiwan, Province of China",
-    "translations": {
-      "zh-TW": {
-        "name": "公山技術學院"
-      }
-    }
-  },
-  {
-    "web_pages": [
       "http://www.ksu.edu.tw/"
     ],
     "name": "Kun Shan University",
@@ -1209,18 +1192,18 @@
   },
   {
     "web_pages": [
-      "http://www.thmu.edu.tw/"
+      "https://www.asia.edu.tw/"
     ],
-    "name": "TaiChung Healthcare and Management University",
+    "name": "Asia University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "thmu.edu.tw"
+      "asia.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "台灣醫護管理大學"
+        "name": "亞洲大學"
       }
     }
   },

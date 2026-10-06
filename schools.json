@@ -421,17 +421,6 @@
       "city": "KHH"
     },
     {
-      "name": "Kung Shan Institute of Technology",
-      "email_domain": "ksit.edu.tw",
-      "translations": {
-        "zh-TW": {
-          "name": "公山技術學院"
-        }
-      },
-      "region": "TW",
-      "code": "KSIT"
-    },
-    {
       "name": "Kun Shan University",
       "email_domain": "ksu.edu.tw",
       "translations": {
@@ -888,15 +877,16 @@
       "city": "HUA"
     },
     {
-      "name": "TaiChung Healthcare and Management University",
-      "email_domain": "thmu.edu.tw",
+      "name": "Asia University",
+      "email_domain": "asia.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "台灣醫護管理大學"
+          "name": "亞洲大學"
         }
       },
       "region": "TW",
-      "code": "THMU"
+      "code": "ASIA",
+      "city": "TXG"
     },
     {
       "name": "Taipei Medical College",

@@ -51,7 +51,6 @@ CODE_MAX_LENGTH = 20
 # 臺灣是 22 縣市的 ISO 3166-2:TW 代碼，以主校區所在地為準；香港分 HKI 港島、
 # KLN 九龍、NT 新界。所選學校沒有書時，首頁與搜尋會改顯示同城市的書。
 # 不在表上的學校不輸出 city 欄位，匯入時保留後台設定的城市，而不是清掉它。
-# 目前缺：ksit.edu.tw、thmu.edu.tw，查不到可信的所在地。
 CITY_BY_DOMAIN = {
     # 臺北市
     "ntu.edu.tw": "TPE", "ntnu.edu.tw": "TPE", "ntust.edu.tw": "TPE", "nccu.edu.tw": "TPE",
@@ -77,6 +76,7 @@ CITY_BY_DOMAIN = {
     "nchu.edu.tw": "TXG", "thu.edu.tw": "TXG", "cmc.edu.tw": "TXG", "csmc.edu.tw": "TXG",
     "cyut.edu.tw": "TXG", "fcu.edu.tw": "TXG", "ltc.edu.tw": "TXG", "ntcpe.edu.tw": "TXG",
     "ntctc.edu.tw": "TXG", "pu.edu.tw": "TXG", "ltu.edu.tw": "TXG", "ncut.edu.tw": "TXG",
+    "asia.edu.tw": "TXG",
     # 彰化縣
     "dyu.edu.tw": "CHA", "ncue.edu.tw": "CHA",
     # 南投縣
