@@ -8,7 +8,9 @@
           "name": "國立臺灣大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTU",
+      "city": "TPE"
     },
     {
       "name": "National Taiwan Normal University",
@@ -18,7 +20,9 @@
           "name": "國立臺灣師範大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTNU",
+      "city": "TPE"
     },
     {
       "name": "National Taiwan University of Science and Technology",
@@ -28,7 +32,9 @@
           "name": "國立臺灣科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTUST",
+      "city": "TPE"
     },
     {
       "name": "National Chengchi University",
@@ -38,7 +44,9 @@
           "name": "國立政治大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NCCU",
+      "city": "TPE"
     },
     {
       "name": "National Tsing Hua University",
@@ -48,7 +56,9 @@
           "name": "國立清華大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTHU",
+      "city": "HSZ"
     },
     {
       "name": "National Yang Ming Chiao Tung University",
@@ -58,7 +68,9 @@
           "name": "國立陽明交通大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NYCU",
+      "city": "HSZ"
     },
     {
       "name": "National Cheng Kung University",
@@ -68,7 +80,9 @@
           "name": "國立成功大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NCKU",
+      "city": "TNN"
     },
     {
       "name": "National Central University",
@@ -78,7 +92,9 @@
           "name": "國立中央大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NCU",
+      "city": "TAO"
     },
     {
       "name": "National Chung Hsing University",
@@ -88,7 +104,9 @@
           "name": "國立中興大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NCHU",
+      "city": "TXG"
     },
     {
       "name": "National Chung Cheng University",
@@ -98,7 +116,9 @@
           "name": "國立中正大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CCU",
+      "city": "CYQ"
     },
     {
       "name": "National Sun Yat-sen University",
@@ -108,7 +128,9 @@
           "name": "國立中山大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NSYSU",
+      "city": "KHH"
     },
     {
       "name": "National Taipei University of Technology",
@@ -118,7 +140,9 @@
           "name": "國立臺北科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTUT",
+      "city": "TPE"
     },
     {
       "name": "Fu Jen Catholic University",
@@ -128,7 +152,9 @@
           "name": "輔仁大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "FJU",
+      "city": "NWT"
     },
     {
       "name": "Soochow University",
@@ -138,7 +164,9 @@
           "name": "東吳大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "SCU",
+      "city": "TPE"
     },
     {
       "name": "Tamkang University",
@@ -148,7 +176,9 @@
           "name": "淡江大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "TKU",
+      "city": "NWT"
     },
     {
       "name": "Tunghai University",
@@ -158,7 +188,9 @@
           "name": "東海大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "THU",
+      "city": "TXG"
     },
     {
       "name": "Chinese Culture University",
@@ -168,7 +200,9 @@
           "name": "中國文化大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "PCCU",
+      "city": "TPE"
     },
     {
       "name": "Shih Hsin University",
@@ -178,7 +212,9 @@
           "name": "世新大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "SHU",
+      "city": "TPE"
     },
     {
       "name": "Aletheia University",
@@ -188,7 +224,9 @@
           "name": "真理大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "AU",
+      "city": "NWT"
     },
     {
       "name": "Chang Gung University",
@@ -198,7 +236,9 @@
           "name": "長庚大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CGU",
+      "city": "TAO"
     },
     {
       "name": "Chia Nana College of Pharmacy and Science",
@@ -208,7 +248,9 @@
           "name": "私立嘉南藥理大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CHNA",
+      "city": "TNN"
     },
     {
       "name": "Chung Hua University",
@@ -218,7 +260,9 @@
           "name": "中華大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CHU",
+      "city": "HSZ"
     },
     {
       "name": "Chang Jung University",
@@ -228,7 +272,9 @@
           "name": "長榮大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CJU",
+      "city": "TNN"
     },
     {
       "name": "Ching Kuo Institue of Management & Health",
@@ -238,7 +284,9 @@
           "name": "清國管理暨健康學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CKU",
+      "city": "KEE"
     },
     {
       "name": "China Medical College",
@@ -248,7 +296,9 @@
           "name": "中國醫藥大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CMC",
+      "city": "TXG"
     },
     {
       "name": "Central Police University",
@@ -258,7 +308,9 @@
           "name": "國立中央警察大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CPU",
+      "city": "TAO"
     },
     {
       "name": "Chung Shan Medical and Dental College",
@@ -268,7 +320,9 @@
           "name": "中山醫藥學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CSMC",
+      "city": "TXG"
     },
     {
       "name": "Chung Yuan Christian University",
@@ -278,7 +332,9 @@
           "name": "中原大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CYCU",
+      "city": "TAO"
     },
     {
       "name": "Chao Yang University of Science and Technology",
@@ -288,7 +344,9 @@
           "name": "朝陽科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CYUT",
+      "city": "TXG"
     },
     {
       "name": "Da-Yeh University",
@@ -298,7 +356,9 @@
           "name": "大葉大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "DYU",
+      "city": "CHA"
     },
     {
       "name": "Feng Chia University",
@@ -308,7 +368,9 @@
           "name": "逢甲大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "FCU",
+      "city": "TXG"
     },
     {
       "name": "Hsuan Chuang University",
@@ -318,7 +380,9 @@
           "name": "玄奘大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "HCU",
+      "city": "HSZ"
     },
     {
       "name": "Huafan University",
@@ -328,7 +392,9 @@
           "name": "華梵大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "HFU",
+      "city": "NWT"
     },
     {
       "name": "I-Shou University",
@@ -338,7 +404,9 @@
           "name": "義守大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "ISU",
+      "city": "KHH"
     },
     {
       "name": "Kaohsiung Medical College",
@@ -348,17 +416,9 @@
           "name": "高雄醫學院"
         }
       },
-      "region": "TW"
-    },
-    {
-      "name": "Kung Shan Institute of Technology",
-      "email_domain": "ksit.edu.tw",
-      "translations": {
-        "zh-TW": {
-          "name": "公山技術學院"
-        }
-      },
-      "region": "TW"
+      "region": "TW",
+      "code": "KMC",
+      "city": "KHH"
     },
     {
       "name": "Kun Shan University",
@@ -368,7 +428,9 @@
           "name": "崑山科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "KSU",
+      "city": "TNN"
     },
     {
       "name": "LungHwa University of Science and Technology",
@@ -378,7 +440,9 @@
           "name": "龍華科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "LHU",
+      "city": "TAO"
     },
     {
       "name": "Ling Tung University",
@@ -388,7 +452,9 @@
           "name": "私立嶺東科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "LTC",
+      "city": "TXG"
     },
     {
       "name": "Ming Chuan University",
@@ -398,7 +464,9 @@
           "name": "明志科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "MCU",
+      "city": "TPE"
     },
     {
       "name": "National Chung Hsing University, Taipei",
@@ -408,7 +476,9 @@
           "name": "國立中興大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NCHULC",
+      "city": "TPE"
     },
     {
       "name": "National Chi Nan University",
@@ -418,7 +488,9 @@
           "name": "國立暨南國際大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NCNU",
+      "city": "NAN"
     },
     {
       "name": "National College of Physical Education and Sports",
@@ -428,7 +500,9 @@
           "name": "國立體育學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NCPES",
+      "city": "TAO"
     },
     {
       "name": "National Changhua University of Education",
@@ -438,7 +512,9 @@
           "name": "國立彰化師範大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NCUE",
+      "city": "CHA"
     },
     {
       "name": "National Chiayi University",
@@ -448,7 +524,9 @@
           "name": "國立嘉義大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NCYU",
+      "city": "CYI"
     },
     {
       "name": "National Dong Hwa University",
@@ -458,7 +536,9 @@
           "name": "國立東華大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NDHU",
+      "city": "HUA"
     },
     {
       "name": "National Formosa University",
@@ -468,7 +548,9 @@
           "name": "國立虎尾科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NFU",
+      "city": "YUN"
     },
     {
       "name": "National Hsin-Chu Teachers College",
@@ -478,7 +560,9 @@
           "name": "國立新竹師範學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NHCTC",
+      "city": "HSZ"
     },
     {
       "name": "National Hualien Teachers College",
@@ -488,7 +572,9 @@
           "name": "國立花蓮教育大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NHLTC",
+      "city": "HUA"
     },
     {
       "name": "Nanhua University",
@@ -498,7 +584,9 @@
           "name": "南華大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NHU",
+      "city": "CYQ"
     },
     {
       "name": "National Institute of the Arts",
@@ -508,7 +596,9 @@
           "name": "國立藝術學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NIA",
+      "city": "TPE"
     },
     {
       "name": "National Ilan University",
@@ -518,7 +608,9 @@
           "name": "國立宜蘭大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NIU",
+      "city": "ILA"
     },
     {
       "name": "National Kaohsiung University of Science and Technology",
@@ -528,7 +620,9 @@
           "name": "國立高雄科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NKUST",
+      "city": "KHH"
     },
     {
       "name": "National Kaohsiung Normal University",
@@ -538,7 +632,9 @@
           "name": "國立高雄師範大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NKNU",
+      "city": "KHH"
     },
     {
       "name": "National Open University",
@@ -548,7 +644,9 @@
           "name": "國立開放大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NOU",
+      "city": "NWT"
     },
     {
       "name": "National Pingtung Teachers College",
@@ -558,7 +656,9 @@
           "name": "國立屏東師範學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NPTTC",
+      "city": "PIF"
     },
     {
       "name": "National Pingtung University of Science and Technology",
@@ -568,7 +668,9 @@
           "name": "國立屏東科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NPUST",
+      "city": "PIF"
     },
     {
       "name": "National Taiwan College of the Arts",
@@ -578,7 +680,9 @@
           "name": "國立臺灣藝術學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTCA",
+      "city": "NWT"
     },
     {
       "name": "National Taipei College of Nursing",
@@ -588,7 +692,9 @@
           "name": "國立臺北護理健康大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTCN",
+      "city": "TPE"
     },
     {
       "name": "National Taiwan College of Physical Education and Sports",
@@ -598,7 +704,9 @@
           "name": "國立臺灣體育學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTCPE",
+      "city": "TXG"
     },
     {
       "name": "National Taichung Teachers College",
@@ -608,7 +716,9 @@
           "name": "國立臺中師範學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTCTC",
+      "city": "TXG"
     },
     {
       "name": "National Tainan Teachers College",
@@ -618,7 +728,9 @@
           "name": "國立臺南師範大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTNTC",
+      "city": "TNN"
     },
     {
       "name": "National Taiwan Ocean University",
@@ -628,7 +740,9 @@
           "name": "國立臺灣海洋大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTOU",
+      "city": "KEE"
     },
     {
       "name": "National Taipei Teachers College",
@@ -638,7 +752,9 @@
           "name": "國立臺北教育大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTPTC",
+      "city": "TPE"
     },
     {
       "name": "National Taipei University",
@@ -648,7 +764,9 @@
           "name": "國立臺北大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTPU",
+      "city": "NWT"
     },
     {
       "name": "National Taitung Teachers College",
@@ -658,7 +776,9 @@
           "name": "國立臺東師範學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTTTC",
+      "city": "TTT"
     },
     {
       "name": "National University of Kaohsiung",
@@ -668,7 +788,9 @@
           "name": "國立高雄大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NUK",
+      "city": "KHH"
     },
     {
       "name": "National United University",
@@ -678,7 +800,9 @@
           "name": "國立聯合大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NUU",
+      "city": "MIA"
     },
     {
       "name": "Kaohsuing Open University",
@@ -688,7 +812,9 @@
           "name": "高雄開放大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "OUK",
+      "city": "KHH"
     },
     {
       "name": "Providence University",
@@ -698,7 +824,9 @@
           "name": "靜宜大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "PU",
+      "city": "TXG"
     },
     {
       "name": "Shih Chien University",
@@ -708,7 +836,9 @@
           "name": "實踐大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "SCC",
+      "city": "TPE"
     },
     {
       "name": "St. John's & St. Mary's Institute of Technology",
@@ -718,7 +848,9 @@
           "name": "聖約翰暨聖瑪麗技術學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "SJSMIT",
+      "city": "NWT"
     },
     {
       "name": "Southern Taiwan University of Technology",
@@ -728,7 +860,9 @@
           "name": "南台科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "STUT",
+      "city": "TNN"
     },
     {
       "name": "Tzu Chi College of Medicine and Humanities",
@@ -738,17 +872,21 @@
           "name": "慈濟醫護管理學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "TCU",
+      "city": "HUA"
     },
     {
-      "name": "TaiChung Healthcare and Management University",
-      "email_domain": "thmu.edu.tw",
+      "name": "Asia University",
+      "email_domain": "asia.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "台灣醫護管理大學"
+          "name": "亞洲大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "ASIA",
+      "city": "TXG"
     },
     {
       "name": "Taipei Medical College",
@@ -758,7 +896,9 @@
           "name": "臺北醫學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "TMC",
+      "city": "TPE"
     },
     {
       "name": "Taipei Municipal Teachers College",
@@ -768,7 +908,9 @@
           "name": "臺北市立師範學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "TMTC",
+      "city": "TPE"
     },
     {
       "name": "Tainan National College of the Arts",
@@ -778,7 +920,9 @@
           "name": "國立臺南藝術大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "TNCA",
+      "city": "TNN"
     },
     {
       "name": "Taipei Physical Education College",
@@ -788,7 +932,9 @@
           "name": "臺北體育學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "TPEC",
+      "city": "TPE"
     },
     {
       "name": "Tatung Institute of Technology",
@@ -798,7 +944,9 @@
           "name": "大同技術學院"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "TTIT",
+      "city": "CYI"
     },
     {
       "name": "TaTung University",
@@ -808,7 +956,9 @@
           "name": "大同大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "TTU",
+      "city": "TPE"
     },
     {
       "name": "National Yunlin University of Science and Technology",
@@ -818,7 +968,9 @@
           "name": "國立雲林科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "YUNTECH",
+      "city": "YUN"
     },
     {
       "name": "Yuan Ze University",
@@ -828,7 +980,9 @@
           "name": "元智大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "YZU",
+      "city": "TAO"
     },
     {
       "name": "Lingdong University of Science and Technology",
@@ -838,7 +992,9 @@
           "name": "嶺東科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "LTU",
+      "city": "TXG"
     },
     {
       "name": "National Taipei University of Education",
@@ -848,7 +1004,9 @@
           "name": "國立臺北教育大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NTUE",
+      "city": "TPE"
     },
     {
       "name": "University of Taipei",
@@ -858,7 +1016,9 @@
           "name": "臺北大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "UTAIPEI",
+      "city": "TPE"
     },
     {
       "name": "National Chin-Yi University of Technology",
@@ -868,7 +1028,9 @@
           "name": "國立勤益科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "NCUT",
+      "city": "TXG"
     },
     {
       "name": "Chihlee University of Technology",
@@ -878,7 +1040,9 @@
           "name": "致理科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "CHIHLEE",
+      "city": "NWT"
     },
     {
       "name": "Tajen University",
