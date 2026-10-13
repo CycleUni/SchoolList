@@ -1052,7 +1052,9 @@
           "name": "大仁科技大學"
         }
       },
-      "region": "TW"
+      "region": "TW",
+      "code": "TAJEN",
+      "city": "PIF"
     }
   ]
 }

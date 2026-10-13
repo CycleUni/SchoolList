@@ -94,7 +94,7 @@ CITY_BY_DOMAIN = {
     "nsysu.edu.tw": "KHH", "isu.edu.tw": "KHH", "kmc.edu.tw": "KHH", "nkust.edu.tw": "KHH",
     "nknu.edu.tw": "KHH", "nuk.edu.tw": "KHH", "ouk.edu.tw": "KHH",
     # 屏東縣
-    "npttc.edu.tw": "PIF", "npust.edu.tw": "PIF",
+    "npttc.edu.tw": "PIF", "npust.edu.tw": "PIF", "tajen.edu.tw": "PIF",
     # 宜蘭縣
     "niu.edu.tw": "ILA",
     # 花蓮縣
