@@ -7,7 +7,7 @@ JSON fixture for CycleUni's admin School bulk-import feature.
 - **Matching key**: `email_domain` (unique on the `School` model) — re-importing is idempotent; unchanged rows are skipped, differing rows are reported as `modified`
 - **Field shapes**: `name` is the canonical English name, `region` is the CycleUni `Region.code`, `translations` holds localized fields keyed by language code
 
-Contents: 101 real universities — 88 Taiwanese (`region: "TW"`, `zh-TW` names) and 13 Hong Kong (`region: "HK"`, `zh-HK` names) — with their real student-email domains. Tested end-to-end against the live endpoint in `CycleUni-BE/tests/test_bulk_import_fixtures.py`.
+Contents: 102 real universities — 89 Taiwanese (`region: "TW"`, `zh-TW` names) and 13 Hong Kong (`region: "HK"`, `zh-HK` names) — with their real student-email domains. Tested end-to-end against the live endpoint in `CycleUni-BE/tests/test_bulk_import_fixtures.py`.
 
 The build script also outputs region-specific files (`schools.TW.json`, `schools.HK.json`).
 - Use `schools.json` if you are a superuser and want to import everything at once.

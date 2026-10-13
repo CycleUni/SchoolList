@@ -81580,6 +81580,14 @@
     "country": "Taiwan, Province of China"
   },
   {
+    "web_pages": ["https://www.tajen.edu.tw/"],
+    "name": "Tajen University",
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "domains": ["tajen.edu.tw"],
+    "country": "Taiwan, Province of China"
+  },
+  {
     "web_pages": ["https://www.techniqueedu.com/"],
     "name": "Technique Polytechnic Institute",
     "alpha_two_code": "IN",

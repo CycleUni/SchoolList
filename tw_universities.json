@@ -1461,5 +1461,22 @@
         "name": "臺北大學"
       }
     }
+  },
+  {
+    "web_pages": [
+      "https://www.tajen.edu.tw/"
+    ],
+    "name": "Tajen University",
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "domains": [
+      "tajen.edu.tw"
+    ],
+    "country": "Taiwan, Province of China",
+    "translations": {
+      "zh-TW": {
+        "name": "大仁科技大學"
+      }
+    }
   }
 ]

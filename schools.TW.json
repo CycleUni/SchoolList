@@ -879,6 +879,16 @@
         }
       },
       "region": "TW"
+    },
+    {
+      "name": "Tajen University",
+      "email_domain": "tajen.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "大仁科技大學"
+        }
+      },
+      "region": "TW"
     }
   ]
 }

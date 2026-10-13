@@ -881,6 +881,16 @@
       "region": "TW"
     },
     {
+      "name": "Tajen University",
+      "email_domain": "tajen.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "大仁科技大學"
+        }
+      },
+      "region": "TW"
+    },
+    {
       "name": "Hong Kong Chu Hai College",
       "email_domain": "chuhai.edu.hk",
       "region": "HK",
