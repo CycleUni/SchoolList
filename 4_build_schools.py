@@ -55,27 +55,27 @@ CITY_BY_DOMAIN = {
     # 臺北市
     "ntu.edu.tw": "TPE", "ntnu.edu.tw": "TPE", "ntust.edu.tw": "TPE", "nccu.edu.tw": "TPE",
     "ntut.edu.tw": "TPE", "scu.edu.tw": "TPE", "sce.pccu.edu.tw": "TPE", "shu.edu.tw": "TPE",
-    "mcu.edu.tw": "TPE", "nchulc.edu.tw": "TPE", "nia.edu.tw": "TPE", "ntcn.edu.tw": "TPE",
-    "ntptc.edu.tw": "TPE", "scc.edu.tw": "TPE", "tmc.edu.tw": "TPE", "tmtc.edu.tw": "TPE",
-    "tpec.edu.tw": "TPE", "ttu.edu.tw": "TPE", "ntue.edu.tw": "TPE", "utaipei.edu.tw": "TPE",
+    "mcu.edu.tw": "TPE", "ntcn.edu.tw": "TPE",
+    "scc.edu.tw": "TPE",
+    "ttu.edu.tw": "TPE", "ntue.edu.tw": "TPE", "utaipei.edu.tw": "TPE",
     # 新北市
     "fju.edu.tw": "NWT", "tku.edu.tw": "NWT", "au.edu.tw": "NWT", "hfu.edu.tw": "NWT",
-    "nou.edu.tw": "NWT", "ntca.edu.tw": "NWT", "ntpu.edu.tw": "NWT", "sjsmit.edu.tw": "NWT",
+    "nou.edu.tw": "NWT", "ntpu.edu.tw": "NWT",
     "chihlee.edu.tw": "NWT",
     # 基隆市
     "cku.edu.tw": "KEE", "ntou.edu.tw": "KEE",
     # 桃園市
     "ncu.edu.tw": "TAO", "cgu.edu.tw": "TAO", "cpu.edu.tw": "TAO", "cycu.edu.tw": "TAO",
-    "lhu.edu.tw": "TAO", "ncpes.edu.tw": "TAO", "yzu.edu.tw": "TAO",
+    "lhu.edu.tw": "TAO", "yzu.edu.tw": "TAO",
     # 新竹市
     "nthu.edu.tw": "HSZ", "nycu.edu.tw": "HSZ", "chu.edu.tw": "HSZ", "hcu.edu.tw": "HSZ",
-    "nhctc.edu.tw": "HSZ",
+   
     # 苗栗縣
     "nuu.edu.tw": "MIA",
     # 臺中市
-    "nchu.edu.tw": "TXG", "thu.edu.tw": "TXG", "cmc.edu.tw": "TXG", "csmc.edu.tw": "TXG",
-    "cyut.edu.tw": "TXG", "fcu.edu.tw": "TXG", "ltc.edu.tw": "TXG", "ntcpe.edu.tw": "TXG",
-    "ntctc.edu.tw": "TXG", "pu.edu.tw": "TXG", "ltu.edu.tw": "TXG", "ncut.edu.tw": "TXG",
+    "nchu.edu.tw": "TXG", "thu.edu.tw": "TXG",
+    "cyut.edu.tw": "TXG", "fcu.edu.tw": "TXG",
+    "pu.edu.tw": "TXG", "ltu.edu.tw": "TXG", "ncut.edu.tw": "TXG",
     "asia.edu.tw": "TXG",
     # 彰化縣
     "dyu.edu.tw": "CHA", "ncue.edu.tw": "CHA",
@@ -84,23 +84,59 @@ CITY_BY_DOMAIN = {
     # 雲林縣
     "nfu.edu.tw": "YUN", "yuntech.edu.tw": "YUN",
     # 嘉義市
-    "ncyu.edu.tw": "CYI", "ttit.edu.tw": "CYI",
+    "ncyu.edu.tw": "CYI",
     # 嘉義縣
     "ccu.edu.tw": "CYQ", "nhu.edu.tw": "CYQ",
     # 臺南市
     "ncku.edu.tw": "TNN", "chna.edu.tw": "TNN", "cju.edu.tw": "TNN", "ksu.edu.tw": "TNN",
-    "ntntc.edu.tw": "TNN", "stut.edu.tw": "TNN", "tnca.edu.tw": "TNN",
+    "stut.edu.tw": "TNN", "tnca.edu.tw": "TNN",
     # 高雄市
-    "nsysu.edu.tw": "KHH", "isu.edu.tw": "KHH", "kmc.edu.tw": "KHH", "nkust.edu.tw": "KHH",
+    "nsysu.edu.tw": "KHH", "isu.edu.tw": "KHH", "nkust.edu.tw": "KHH",
     "nknu.edu.tw": "KHH", "nuk.edu.tw": "KHH", "ouk.edu.tw": "KHH",
     # 屏東縣
-    "npttc.edu.tw": "PIF", "npust.edu.tw": "PIF", "tajen.edu.tw": "PIF",
+    "npust.edu.tw": "PIF", "tajen.edu.tw": "PIF",
     # 宜蘭縣
     "niu.edu.tw": "ILA",
     # 花蓮縣
-    "ndhu.edu.tw": "HUA", "nhltc.edu.tw": "HUA", "tcu.edu.tw": "HUA",
+    "ndhu.edu.tw": "HUA", "tcu.edu.tw": "HUA",
     # 臺東縣
-    "ntttc.edu.tw": "TTT",
+   
+    # 後補的學校
+    "cmu.edu.tw": "TXG",
+    "csmu.edu.tw": "TXG",
+    "kmu.edu.tw": "KHH",
+    "ntsu.edu.tw": "TAO",
+    "tnua.edu.tw": "TPE",
+    "nptu.edu.tw": "PIF",
+    "ntua.edu.tw": "NWT",
+    "ntus.edu.tw": "TXG",
+    "ntcu.edu.tw": "TXG",
+    "nutn.edu.tw": "TNN",
+    "nttu.edu.tw": "TTT",
+    "sju.edu.tw": "NWT",
+    "tmu.edu.tw": "TPE",
+    "nqu.edu.tw": "KIN",
+    "npu.edu.tw": "PEN",
+    "nutc.edu.tw": "TXG",
+    "ntub.edu.tw": "TPE",
+    "nkuht.edu.tw": "KHH",
+    "fgu.edu.tw": "ILA",
+    "knu.edu.tw": "TAO",
+    "wzu.edu.tw": "KHH",
+    "just.edu.tw": "NWT",
+    "hust.edu.tw": "TXG",
+    "cute.edu.tw": "TPE",
+    "ctu.edu.tw": "CHA",
+    "csu.edu.tw": "KHH",
+    "fy.edu.tw": "KHH",
+    "mcut.edu.tw": "NWT",
+    "cgust.edu.tw": "TAO",
+    "takming.edu.tw": "TPE",
+    "aeust.edu.tw": "NWT",
+    "uch.edu.tw": "TAO",
+    "must.edu.tw": "HSQ",
+    "twc.edu.hk": "KLN",
+    "thei.edu.hk": "NT",
     # 香港：港島
     "hku.hk": "HKI", "hkapa.edu": "HKI", "hksyu.edu": "HKI",
     # 香港：九龍

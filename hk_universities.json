@@ -3,7 +3,7 @@
     "web_pages": [
       "https://www.chuhai.edu.hk/"
     ],
-    "name": "Hong Kong Chu Hai College",
+    "name": "Chu Hai College of Higher Education",
     "alpha_two_code": "HK",
     "state-province": null,
     "domains": [
@@ -12,7 +12,7 @@
     "country": "Hong Kong",
     "translations": {
       "zh-HK": {
-        "name": "香港珠海學院"
+        "name": "珠海學院"
       }
     }
   },
@@ -227,6 +227,40 @@
     "translations": {
       "zh-HK": {
         "name": "香港恒生大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.twc.edu.hk/"
+    ],
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "country": "Hong Kong",
+    "name": "Tung Wah College",
+    "domains": [
+      "twc.edu.hk"
+    ],
+    "translations": {
+      "zh-HK": {
+        "name": "東華學院"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.thei.edu.hk/"
+    ],
+    "alpha_two_code": "HK",
+    "state-province": null,
+    "country": "Hong Kong",
+    "name": "Technological and Higher Education Institute of Hong Kong",
+    "domains": [
+      "thei.edu.hk"
+    ],
+    "translations": {
+      "zh-HK": {
+        "name": "香港高等教育科技學院"
       }
     }
   }

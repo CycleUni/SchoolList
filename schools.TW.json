@@ -241,11 +241,11 @@
       "city": "TAO"
     },
     {
-      "name": "Chia Nana College of Pharmacy and Science",
+      "name": "Chia Nan University of Pharmacy and Science",
       "email_domain": "chna.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "私立嘉南藥理大學"
+          "name": "嘉南藥理大學"
         }
       },
       "region": "TW",
@@ -277,11 +277,11 @@
       "city": "TNN"
     },
     {
-      "name": "Ching Kuo Institue of Management & Health",
+      "name": "Ching Kuo Institute of Management and Health",
       "email_domain": "cku.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "清國管理暨健康學院"
+          "name": "經國管理暨健康學院"
         }
       },
       "region": "TW",
@@ -289,15 +289,15 @@
       "city": "KEE"
     },
     {
-      "name": "China Medical College",
-      "email_domain": "cmc.edu.tw",
+      "name": "China Medical University",
+      "email_domain": "cmu.edu.tw",
       "translations": {
         "zh-TW": {
           "name": "中國醫藥大學"
         }
       },
       "region": "TW",
-      "code": "CMC",
+      "code": "CMU",
       "city": "TXG"
     },
     {
@@ -313,15 +313,15 @@
       "city": "TAO"
     },
     {
-      "name": "Chung Shan Medical and Dental College",
-      "email_domain": "csmc.edu.tw",
+      "name": "Chung Shan Medical University",
+      "email_domain": "csmu.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "中山醫藥學院"
+          "name": "中山醫學大學"
         }
       },
       "region": "TW",
-      "code": "CSMC",
+      "code": "CSMU",
       "city": "TXG"
     },
     {
@@ -409,15 +409,15 @@
       "city": "KHH"
     },
     {
-      "name": "Kaohsiung Medical College",
-      "email_domain": "kmc.edu.tw",
+      "name": "Kaohsiung Medical University",
+      "email_domain": "kmu.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "高雄醫學院"
+          "name": "高雄醫學大學"
         }
       },
       "region": "TW",
-      "code": "KMC",
+      "code": "KMU",
       "city": "KHH"
     },
     {
@@ -445,39 +445,15 @@
       "city": "TAO"
     },
     {
-      "name": "Ling Tung University",
-      "email_domain": "ltc.edu.tw",
-      "translations": {
-        "zh-TW": {
-          "name": "私立嶺東科技大學"
-        }
-      },
-      "region": "TW",
-      "code": "LTC",
-      "city": "TXG"
-    },
-    {
       "name": "Ming Chuan University",
       "email_domain": "mcu.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "明志科技大學"
+          "name": "銘傳大學"
         }
       },
       "region": "TW",
       "code": "MCU",
-      "city": "TPE"
-    },
-    {
-      "name": "National Chung Hsing University, Taipei",
-      "email_domain": "nchulc.edu.tw",
-      "translations": {
-        "zh-TW": {
-          "name": "國立中興大學"
-        }
-      },
-      "region": "TW",
-      "code": "NCHULC",
       "city": "TPE"
     },
     {
@@ -493,15 +469,15 @@
       "city": "NAN"
     },
     {
-      "name": "National College of Physical Education and Sports",
-      "email_domain": "ncpes.edu.tw",
+      "name": "National Taiwan Sport University",
+      "email_domain": "ntsu.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "國立體育學院"
+          "name": "國立體育大學"
         }
       },
       "region": "TW",
-      "code": "NCPES",
+      "code": "NTSU",
       "city": "TAO"
     },
     {
@@ -553,30 +529,6 @@
       "city": "YUN"
     },
     {
-      "name": "National Hsin-Chu Teachers College",
-      "email_domain": "nhctc.edu.tw",
-      "translations": {
-        "zh-TW": {
-          "name": "國立新竹師範學院"
-        }
-      },
-      "region": "TW",
-      "code": "NHCTC",
-      "city": "HSZ"
-    },
-    {
-      "name": "National Hualien Teachers College",
-      "email_domain": "nhltc.edu.tw",
-      "translations": {
-        "zh-TW": {
-          "name": "國立花蓮教育大學"
-        }
-      },
-      "region": "TW",
-      "code": "NHLTC",
-      "city": "HUA"
-    },
-    {
       "name": "Nanhua University",
       "email_domain": "nhu.edu.tw",
       "translations": {
@@ -589,15 +541,15 @@
       "city": "CYQ"
     },
     {
-      "name": "National Institute of the Arts",
-      "email_domain": "nia.edu.tw",
+      "name": "Taipei National University of the Arts",
+      "email_domain": "tnua.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "國立藝術學院"
+          "name": "國立臺北藝術大學"
         }
       },
       "region": "TW",
-      "code": "NIA",
+      "code": "TNUA",
       "city": "TPE"
     },
     {
@@ -649,15 +601,15 @@
       "city": "NWT"
     },
     {
-      "name": "National Pingtung Teachers College",
-      "email_domain": "npttc.edu.tw",
+      "name": "National Pingtung University",
+      "email_domain": "nptu.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "國立屏東師範學院"
+          "name": "國立屏東大學"
         }
       },
       "region": "TW",
-      "code": "NPTTC",
+      "code": "NPTU",
       "city": "PIF"
     },
     {
@@ -673,15 +625,15 @@
       "city": "PIF"
     },
     {
-      "name": "National Taiwan College of the Arts",
-      "email_domain": "ntca.edu.tw",
+      "name": "National Taiwan University of Arts",
+      "email_domain": "ntua.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "國立臺灣藝術學院"
+          "name": "國立臺灣藝術大學"
         }
       },
       "region": "TW",
-      "code": "NTCA",
+      "code": "NTUA",
       "city": "NWT"
     },
     {
@@ -697,39 +649,39 @@
       "city": "TPE"
     },
     {
-      "name": "National Taiwan College of Physical Education and Sports",
-      "email_domain": "ntcpe.edu.tw",
+      "name": "National Taiwan University of Sport",
+      "email_domain": "ntus.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "國立臺灣體育學院"
+          "name": "國立臺灣體育運動大學"
         }
       },
       "region": "TW",
-      "code": "NTCPE",
+      "code": "NTUS",
       "city": "TXG"
     },
     {
-      "name": "National Taichung Teachers College",
-      "email_domain": "ntctc.edu.tw",
+      "name": "National Taichung University of Education",
+      "email_domain": "ntcu.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "國立臺中師範學院"
+          "name": "國立臺中教育大學"
         }
       },
       "region": "TW",
-      "code": "NTCTC",
+      "code": "NTCU",
       "city": "TXG"
     },
     {
-      "name": "National Tainan Teachers College",
-      "email_domain": "ntntc.edu.tw",
+      "name": "National University of Tainan",
+      "email_domain": "nutn.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "國立臺南師範大學"
+          "name": "國立臺南大學"
         }
       },
       "region": "TW",
-      "code": "NTNTC",
+      "code": "NUTN",
       "city": "TNN"
     },
     {
@@ -745,18 +697,6 @@
       "city": "KEE"
     },
     {
-      "name": "National Taipei Teachers College",
-      "email_domain": "ntptc.edu.tw",
-      "translations": {
-        "zh-TW": {
-          "name": "國立臺北教育大學"
-        }
-      },
-      "region": "TW",
-      "code": "NTPTC",
-      "city": "TPE"
-    },
-    {
       "name": "National Taipei University",
       "email_domain": "ntpu.edu.tw",
       "translations": {
@@ -769,15 +709,15 @@
       "city": "NWT"
     },
     {
-      "name": "National Taitung Teachers College",
-      "email_domain": "ntttc.edu.tw",
+      "name": "National Taitung University",
+      "email_domain": "nttu.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "國立臺東師範學院"
+          "name": "國立臺東大學"
         }
       },
       "region": "TW",
-      "code": "NTTTC",
+      "code": "NTTU",
       "city": "TTT"
     },
     {
@@ -805,7 +745,7 @@
       "city": "MIA"
     },
     {
-      "name": "Kaohsuing Open University",
+      "name": "Kaohsiung Open University",
       "email_domain": "ouk.edu.tw",
       "translations": {
         "zh-TW": {
@@ -841,23 +781,23 @@
       "city": "TPE"
     },
     {
-      "name": "St. John's & St. Mary's Institute of Technology",
-      "email_domain": "sjsmit.edu.tw",
+      "name": "St. John's University",
+      "email_domain": "sju.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "聖約翰暨聖瑪麗技術學院"
+          "name": "聖約翰科技大學"
         }
       },
       "region": "TW",
-      "code": "SJSMIT",
+      "code": "SJU",
       "city": "NWT"
     },
     {
-      "name": "Southern Taiwan University of Technology",
+      "name": "Southern Taiwan University of Science and Technology",
       "email_domain": "stut.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "南台科技大學"
+          "name": "南臺科技大學"
         }
       },
       "region": "TW",
@@ -865,11 +805,11 @@
       "city": "TNN"
     },
     {
-      "name": "Tzu Chi College of Medicine and Humanities",
+      "name": "Tzu Chi University",
       "email_domain": "tcu.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "慈濟醫護管理學院"
+          "name": "慈濟大學"
         }
       },
       "region": "TW",
@@ -889,27 +829,15 @@
       "city": "TXG"
     },
     {
-      "name": "Taipei Medical College",
-      "email_domain": "tmc.edu.tw",
+      "name": "Taipei Medical University",
+      "email_domain": "tmu.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "臺北醫學院"
+          "name": "臺北醫學大學"
         }
       },
       "region": "TW",
-      "code": "TMC",
-      "city": "TPE"
-    },
-    {
-      "name": "Taipei Municipal Teachers College",
-      "email_domain": "tmtc.edu.tw",
-      "translations": {
-        "zh-TW": {
-          "name": "臺北市立師範學院"
-        }
-      },
-      "region": "TW",
-      "code": "TMTC",
+      "code": "TMU",
       "city": "TPE"
     },
     {
@@ -925,31 +853,7 @@
       "city": "TNN"
     },
     {
-      "name": "Taipei Physical Education College",
-      "email_domain": "tpec.edu.tw",
-      "translations": {
-        "zh-TW": {
-          "name": "臺北體育學院"
-        }
-      },
-      "region": "TW",
-      "code": "TPEC",
-      "city": "TPE"
-    },
-    {
-      "name": "Tatung Institute of Technology",
-      "email_domain": "ttit.edu.tw",
-      "translations": {
-        "zh-TW": {
-          "name": "大同技術學院"
-        }
-      },
-      "region": "TW",
-      "code": "TTIT",
-      "city": "CYI"
-    },
-    {
-      "name": "TaTung University",
+      "name": "Tatung University",
       "email_domain": "ttu.edu.tw",
       "translations": {
         "zh-TW": {
@@ -985,7 +889,7 @@
       "city": "TAO"
     },
     {
-      "name": "Lingdong University of Science and Technology",
+      "name": "Ling Tung University",
       "email_domain": "ltu.edu.tw",
       "translations": {
         "zh-TW": {
@@ -1013,7 +917,7 @@
       "email_domain": "utaipei.edu.tw",
       "translations": {
         "zh-TW": {
-          "name": "臺北大學"
+          "name": "臺北市立大學"
         }
       },
       "region": "TW",
@@ -1055,6 +959,246 @@
       "region": "TW",
       "code": "TAJEN",
       "city": "PIF"
+    },
+    {
+      "region": "TW",
+      "name": "National Quemoy University",
+      "email_domain": "nqu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立金門大學"
+        }
+      },
+      "code": "NQU",
+      "city": "KIN"
+    },
+    {
+      "region": "TW",
+      "name": "National Penghu University of Science and Technology",
+      "email_domain": "npu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立澎湖科技大學"
+        }
+      },
+      "code": "NPU",
+      "city": "PEN"
+    },
+    {
+      "region": "TW",
+      "name": "National Taichung University of Science and Technology",
+      "email_domain": "nutc.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺中科技大學"
+        }
+      },
+      "code": "NUTC",
+      "city": "TXG"
+    },
+    {
+      "region": "TW",
+      "name": "National Taipei University of Business",
+      "email_domain": "ntub.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立臺北商業大學"
+        }
+      },
+      "code": "NTUB",
+      "city": "TPE"
+    },
+    {
+      "region": "TW",
+      "name": "National Kaohsiung University of Hospitality and Tourism",
+      "email_domain": "nkuht.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "國立高雄餐旅大學"
+        }
+      },
+      "code": "NKUHT",
+      "city": "KHH"
+    },
+    {
+      "region": "TW",
+      "name": "Fo Guang University",
+      "email_domain": "fgu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "佛光大學"
+        }
+      },
+      "code": "FGU",
+      "city": "ILA"
+    },
+    {
+      "region": "TW",
+      "name": "Kainan University",
+      "email_domain": "knu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "開南大學"
+        }
+      },
+      "code": "KNU",
+      "city": "TAO"
+    },
+    {
+      "region": "TW",
+      "name": "Wenzao Ursuline University of Languages",
+      "email_domain": "wzu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "文藻外語大學"
+        }
+      },
+      "code": "WZU",
+      "city": "KHH"
+    },
+    {
+      "region": "TW",
+      "name": "Jinwen University of Science and Technology",
+      "email_domain": "just.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "景文科技大學"
+        }
+      },
+      "code": "JUST",
+      "city": "NWT"
+    },
+    {
+      "region": "TW",
+      "name": "Hsiuping University of Science and Technology",
+      "email_domain": "hust.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "修平科技大學"
+        }
+      },
+      "code": "HUST",
+      "city": "TXG"
+    },
+    {
+      "region": "TW",
+      "name": "China University of Science and Technology",
+      "email_domain": "cute.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "中國科技大學"
+        }
+      },
+      "code": "CUTE",
+      "city": "TPE"
+    },
+    {
+      "region": "TW",
+      "name": "Chienkuo Technology University",
+      "email_domain": "ctu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "建國科技大學"
+        }
+      },
+      "code": "CTU",
+      "city": "CHA"
+    },
+    {
+      "region": "TW",
+      "name": "Cheng Shiu University",
+      "email_domain": "csu.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "正修科技大學"
+        }
+      },
+      "code": "CSU",
+      "city": "KHH"
+    },
+    {
+      "region": "TW",
+      "name": "Fooyin University",
+      "email_domain": "fy.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "輔英科技大學"
+        }
+      },
+      "code": "FY",
+      "city": "KHH"
+    },
+    {
+      "region": "TW",
+      "name": "Ming Chi University of Technology",
+      "email_domain": "mcut.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "明志科技大學"
+        }
+      },
+      "code": "MCUT",
+      "city": "NWT"
+    },
+    {
+      "region": "TW",
+      "name": "Chang Gung University of Science and Technology",
+      "email_domain": "cgust.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "長庚科技大學"
+        }
+      },
+      "code": "CGUST",
+      "city": "TAO"
+    },
+    {
+      "region": "TW",
+      "name": "Takming University of Science and Technology",
+      "email_domain": "takming.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "德明財經科技大學"
+        }
+      },
+      "code": "TAKMING",
+      "city": "TPE"
+    },
+    {
+      "region": "TW",
+      "name": "Asia Eastern University of Science and Technology",
+      "email_domain": "aeust.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "亞東科技大學"
+        }
+      },
+      "code": "AEUST",
+      "city": "NWT"
+    },
+    {
+      "region": "TW",
+      "name": "Chien Hsin University of Science and Technology",
+      "email_domain": "uch.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "健行科技大學"
+        }
+      },
+      "code": "UCH",
+      "city": "TAO"
+    },
+    {
+      "region": "TW",
+      "name": "Minghsin University of Science and Technology",
+      "email_domain": "must.edu.tw",
+      "translations": {
+        "zh-TW": {
+          "name": "明新科技大學"
+        }
+      },
+      "code": "MUST",
+      "city": "HSQ"
     }
   ]
 }

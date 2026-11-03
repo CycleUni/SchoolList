@@ -52,9 +52,9 @@
   },
   {
     "web_pages": [
-      "http://www.chna.edu.tw/"
+      "https://www.chna.edu.tw/"
     ],
-    "name": "Chia Nana College of Pharmacy and Science",
+    "name": "Chia Nan University of Pharmacy and Science",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
@@ -63,7 +63,7 @@
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "私立嘉南藥理大學"
+        "name": "嘉南藥理大學"
       }
     }
   },
@@ -103,9 +103,9 @@
   },
   {
     "web_pages": [
-      "http://www.cku.edu.tw/"
+      "https://www.cku.edu.tw/"
     ],
-    "name": "Ching Kuo Institue of Management & Health",
+    "name": "Ching Kuo Institute of Management and Health",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
@@ -114,19 +114,19 @@
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "清國管理暨健康學院"
+        "name": "經國管理暨健康學院"
       }
     }
   },
   {
     "web_pages": [
-      "http://www.cmc.edu.tw/"
+      "https://www.cmu.edu.tw/"
     ],
-    "name": "China Medical College",
+    "name": "China Medical University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "cmc.edu.tw"
+      "cmu.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
@@ -154,18 +154,18 @@
   },
   {
     "web_pages": [
-      "http://www.csmc.edu.tw/"
+      "https://www.csmu.edu.tw/"
     ],
-    "name": "Chung Shan Medical and Dental College",
+    "name": "Chung Shan Medical University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "csmc.edu.tw"
+      "csmu.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "中山醫藥學院"
+        "name": "中山醫學大學"
       }
     }
   },
@@ -324,18 +324,18 @@
   },
   {
     "web_pages": [
-      "http://www.kmc.edu.tw/"
+      "https://www.kmu.edu.tw/"
     ],
-    "name": "Kaohsiung Medical College",
+    "name": "Kaohsiung Medical University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "kmc.edu.tw"
+      "kmu.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "高雄醫學院"
+        "name": "高雄醫學大學"
       }
     }
   },
@@ -375,24 +375,7 @@
   },
   {
     "web_pages": [
-      "http://www.ltc.edu.tw/"
-    ],
-    "name": "Ling Tung University",
-    "alpha_two_code": "TW",
-    "state-province": null,
-    "domains": [
-      "ltc.edu.tw"
-    ],
-    "country": "Taiwan, Province of China",
-    "translations": {
-      "zh-TW": {
-        "name": "私立嶺東科技大學"
-      }
-    }
-  },
-  {
-    "web_pages": [
-      "http://www.mcu.edu.tw/"
+      "https://www.mcu.edu.tw/"
     ],
     "name": "Ming Chuan University",
     "alpha_two_code": "TW",
@@ -403,7 +386,7 @@
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "明志科技大學"
+        "name": "銘傳大學"
       }
     }
   },
@@ -443,23 +426,6 @@
   },
   {
     "web_pages": [
-      "http://www.nchulc.edu.tw/"
-    ],
-    "name": "National Chung Hsing University, Taipei",
-    "alpha_two_code": "TW",
-    "state-province": null,
-    "domains": [
-      "nchulc.edu.tw"
-    ],
-    "country": "Taiwan, Province of China",
-    "translations": {
-      "zh-TW": {
-        "name": "國立中興大學"
-      }
-    }
-  },
-  {
-    "web_pages": [
       "http://www.ncnu.edu.tw/"
     ],
     "name": "National Chi Nan University",
@@ -477,18 +443,18 @@
   },
   {
     "web_pages": [
-      "http://www.ncpes.edu.tw/"
+      "https://www.ntsu.edu.tw/"
     ],
-    "name": "National College of Physical Education and Sports",
+    "name": "National Taiwan Sport University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "ncpes.edu.tw"
+      "ntsu.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "國立體育學院"
+        "name": "國立體育大學"
       }
     }
   },
@@ -579,40 +545,6 @@
   },
   {
     "web_pages": [
-      "http://www.nhctc.edu.tw/"
-    ],
-    "name": "National Hsin-Chu Teachers College",
-    "alpha_two_code": "TW",
-    "state-province": null,
-    "domains": [
-      "nhctc.edu.tw"
-    ],
-    "country": "Taiwan, Province of China",
-    "translations": {
-      "zh-TW": {
-        "name": "國立新竹師範學院"
-      }
-    }
-  },
-  {
-    "web_pages": [
-      "http://www.nhltc.edu.tw/"
-    ],
-    "name": "National Hualien Teachers College",
-    "alpha_two_code": "TW",
-    "state-province": null,
-    "domains": [
-      "nhltc.edu.tw"
-    ],
-    "country": "Taiwan, Province of China",
-    "translations": {
-      "zh-TW": {
-        "name": "國立花蓮教育大學"
-      }
-    }
-  },
-  {
-    "web_pages": [
       "http://www.nhu.edu.tw/"
     ],
     "name": "Nanhua University",
@@ -630,18 +562,18 @@
   },
   {
     "web_pages": [
-      "http://www.nia.edu.tw/"
+      "https://www.tnua.edu.tw/"
     ],
-    "name": "National Institute of the Arts",
+    "name": "Taipei National University of the Arts",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "nia.edu.tw"
+      "tnua.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "國立藝術學院"
+        "name": "國立臺北藝術大學"
       }
     }
   },
@@ -715,18 +647,18 @@
   },
   {
     "web_pages": [
-      "http://www.npttc.edu.tw/"
+      "https://www.nptu.edu.tw/"
     ],
-    "name": "National Pingtung Teachers College",
+    "name": "National Pingtung University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "npttc.edu.tw"
+      "nptu.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "國立屏東師範學院"
+        "name": "國立屏東大學"
       }
     }
   },
@@ -766,18 +698,18 @@
   },
   {
     "web_pages": [
-      "http://www.ntca.edu.tw/"
+      "https://www.ntua.edu.tw/"
     ],
-    "name": "National Taiwan College of the Arts",
+    "name": "National Taiwan University of Arts",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "ntca.edu.tw"
+      "ntua.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "國立臺灣藝術學院"
+        "name": "國立臺灣藝術大學"
       }
     }
   },
@@ -800,35 +732,35 @@
   },
   {
     "web_pages": [
-      "http://www.ntcpe.edu.tw/"
+      "https://www.ntus.edu.tw/"
     ],
-    "name": "National Taiwan College of Physical Education and Sports",
+    "name": "National Taiwan University of Sport",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "ntcpe.edu.tw"
+      "ntus.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "國立臺灣體育學院"
+        "name": "國立臺灣體育運動大學"
       }
     }
   },
   {
     "web_pages": [
-      "http://www.ntctc.edu.tw/"
+      "https://www.ntcu.edu.tw/"
     ],
-    "name": "National Taichung Teachers College",
+    "name": "National Taichung University of Education",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "ntctc.edu.tw"
+      "ntcu.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "國立臺中師範學院"
+        "name": "國立臺中教育大學"
       }
     }
   },
@@ -851,18 +783,18 @@
   },
   {
     "web_pages": [
-      "http://www.ntntc.edu.tw/"
+      "https://www.nutn.edu.tw/"
     ],
-    "name": "National Tainan Teachers College",
+    "name": "National University of Tainan",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "ntntc.edu.tw"
+      "nutn.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "國立臺南師範大學"
+        "name": "國立臺南大學"
       }
     }
   },
@@ -902,23 +834,6 @@
   },
   {
     "web_pages": [
-      "http://www.ntptc.edu.tw/"
-    ],
-    "name": "National Taipei Teachers College",
-    "alpha_two_code": "TW",
-    "state-province": null,
-    "domains": [
-      "ntptc.edu.tw"
-    ],
-    "country": "Taiwan, Province of China",
-    "translations": {
-      "zh-TW": {
-        "name": "國立臺北教育大學"
-      }
-    }
-  },
-  {
-    "web_pages": [
       "http://www.ntpu.edu.tw/"
     ],
     "name": "National Taipei University",
@@ -936,18 +851,18 @@
   },
   {
     "web_pages": [
-      "http://www.ntttc.edu.tw/"
+      "https://www.nttu.edu.tw/"
     ],
-    "name": "National Taitung Teachers College",
+    "name": "National Taitung University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "ntttc.edu.tw"
+      "nttu.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "國立臺東師範學院"
+        "name": "國立臺東大學"
       }
     }
   },
@@ -1039,9 +954,9 @@
   },
   {
     "web_pages": [
-      "http://www.ouk.edu.tw/"
+      "https://www.ouk.edu.tw/"
     ],
-    "name": "Kaohsuing Open University",
+    "name": "Kaohsiung Open University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
@@ -1141,26 +1056,26 @@
   },
   {
     "web_pages": [
-      "http://www.sjsmit.edu.tw/"
+      "https://www.sju.edu.tw/"
     ],
-    "name": "St. John's & St. Mary's Institute of Technology",
+    "name": "St. John's University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "sjsmit.edu.tw"
+      "sju.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "聖約翰暨聖瑪麗技術學院"
+        "name": "聖約翰科技大學"
       }
     }
   },
   {
     "web_pages": [
-      "http://www.stut.edu.tw/"
+      "https://www.stut.edu.tw/"
     ],
-    "name": "Southern Taiwan University of Technology",
+    "name": "Southern Taiwan University of Science and Technology",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
@@ -1169,15 +1084,15 @@
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "南台科技大學"
+        "name": "南臺科技大學"
       }
     }
   },
   {
     "web_pages": [
-      "http://www.tcu.edu.tw/"
+      "https://www.tcu.edu.tw/"
     ],
-    "name": "Tzu Chi College of Medicine and Humanities",
+    "name": "Tzu Chi University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
@@ -1186,7 +1101,7 @@
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "慈濟醫護管理學院"
+        "name": "慈濟大學"
       }
     }
   },
@@ -1243,35 +1158,18 @@
   },
   {
     "web_pages": [
-      "http://www.tmc.edu.tw/"
+      "https://www.tmu.edu.tw/"
     ],
-    "name": "Taipei Medical College",
+    "name": "Taipei Medical University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
-      "tmc.edu.tw"
+      "tmu.edu.tw"
     ],
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "臺北醫學院"
-      }
-    }
-  },
-  {
-    "web_pages": [
-      "http://www.tmtc.edu.tw/"
-    ],
-    "name": "Taipei Municipal Teachers College",
-    "alpha_two_code": "TW",
-    "state-province": null,
-    "domains": [
-      "tmtc.edu.tw"
-    ],
-    "country": "Taiwan, Province of China",
-    "translations": {
-      "zh-TW": {
-        "name": "臺北市立師範學院"
+        "name": "臺北醫學大學"
       }
     }
   },
@@ -1294,43 +1192,9 @@
   },
   {
     "web_pages": [
-      "http://www.tpec.edu.tw/"
+      "https://www.ttu.edu.tw/"
     ],
-    "name": "Taipei Physical Education College",
-    "alpha_two_code": "TW",
-    "state-province": null,
-    "domains": [
-      "tpec.edu.tw"
-    ],
-    "country": "Taiwan, Province of China",
-    "translations": {
-      "zh-TW": {
-        "name": "臺北體育學院"
-      }
-    }
-  },
-  {
-    "web_pages": [
-      "http://www.ttit.edu.tw/"
-    ],
-    "name": "Tatung Institute of Technology",
-    "alpha_two_code": "TW",
-    "state-province": null,
-    "domains": [
-      "ttit.edu.tw"
-    ],
-    "country": "Taiwan, Province of China",
-    "translations": {
-      "zh-TW": {
-        "name": "大同技術學院"
-      }
-    }
-  },
-  {
-    "web_pages": [
-      "http://www.ttu.edu.tw/"
-    ],
-    "name": "TaTung University",
+    "name": "Tatung University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
@@ -1396,9 +1260,9 @@
   },
   {
     "web_pages": [
-      "http://www.ltu.edu.tw/"
+      "https://www.ltu.edu.tw/"
     ],
-    "name": "Lingdong University of Science and Technology",
+    "name": "Ling Tung University",
     "alpha_two_code": "TW",
     "state-province": null,
     "domains": [
@@ -1441,7 +1305,7 @@
     "country": "Taiwan, Province of China",
     "translations": {
       "zh-TW": {
-        "name": "臺北大學"
+        "name": "臺北市立大學"
       }
     }
   },
@@ -1459,6 +1323,346 @@
     "translations": {
       "zh-TW": {
         "name": "大仁科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.nqu.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "National Quemoy University",
+    "domains": [
+      "nqu.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "國立金門大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.npu.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "National Penghu University of Science and Technology",
+    "domains": [
+      "npu.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "國立澎湖科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.nutc.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "National Taichung University of Science and Technology",
+    "domains": [
+      "nutc.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "國立臺中科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.ntub.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "National Taipei University of Business",
+    "domains": [
+      "ntub.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "國立臺北商業大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.nkuht.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "National Kaohsiung University of Hospitality and Tourism",
+    "domains": [
+      "nkuht.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "國立高雄餐旅大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.fgu.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Fo Guang University",
+    "domains": [
+      "fgu.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "佛光大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.knu.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Kainan University",
+    "domains": [
+      "knu.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "開南大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.wzu.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Wenzao Ursuline University of Languages",
+    "domains": [
+      "wzu.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "文藻外語大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.just.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Jinwen University of Science and Technology",
+    "domains": [
+      "just.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "景文科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.hust.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Hsiuping University of Science and Technology",
+    "domains": [
+      "hust.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "修平科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.cute.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "China University of Science and Technology",
+    "domains": [
+      "cute.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "中國科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.ctu.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Chienkuo Technology University",
+    "domains": [
+      "ctu.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "建國科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.csu.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Cheng Shiu University",
+    "domains": [
+      "csu.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "正修科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.fy.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Fooyin University",
+    "domains": [
+      "fy.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "輔英科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.mcut.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Ming Chi University of Technology",
+    "domains": [
+      "mcut.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "明志科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.cgust.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Chang Gung University of Science and Technology",
+    "domains": [
+      "cgust.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "長庚科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.takming.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Takming University of Science and Technology",
+    "domains": [
+      "takming.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "德明財經科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.aeust.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Asia Eastern University of Science and Technology",
+    "domains": [
+      "aeust.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "亞東科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.uch.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Chien Hsin University of Science and Technology",
+    "domains": [
+      "uch.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "健行科技大學"
+      }
+    }
+  },
+  {
+    "web_pages": [
+      "https://www.must.edu.tw/"
+    ],
+    "alpha_two_code": "TW",
+    "state-province": null,
+    "country": "Taiwan, Province of China",
+    "name": "Minghsin University of Science and Technology",
+    "domains": [
+      "must.edu.tw"
+    ],
+    "translations": {
+      "zh-TW": {
+        "name": "明新科技大學"
       }
     }
   }

@@ -1,12 +1,12 @@
 {
   "items": [
     {
-      "name": "Hong Kong Chu Hai College",
+      "name": "Chu Hai College of Higher Education",
       "email_domain": "chuhai.edu.hk",
       "region": "HK",
       "translations": {
         "zh-HK": {
-          "name": "香港珠海學院"
+          "name": "珠海學院"
         }
       },
       "code": "CHUHAI",
@@ -154,6 +154,30 @@
         }
       },
       "code": "HSU",
+      "city": "NT"
+    },
+    {
+      "region": "HK",
+      "name": "Tung Wah College",
+      "email_domain": "twc.edu.hk",
+      "translations": {
+        "zh-HK": {
+          "name": "東華學院"
+        }
+      },
+      "code": "TWC",
+      "city": "KLN"
+    },
+    {
+      "region": "HK",
+      "name": "Technological and Higher Education Institute of Hong Kong",
+      "email_domain": "thei.edu.hk",
+      "translations": {
+        "zh-HK": {
+          "name": "香港高等教育科技學院"
+        }
+      },
+      "code": "THEI",
       "city": "NT"
     }
   ]
