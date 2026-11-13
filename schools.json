@@ -946,7 +946,15 @@
       },
       "region": "TW",
       "code": "CHIHLEE",
-      "city": "NWT"
+      "city": "NWT",
+      "email_domains": [
+        "gm.chihlee.edu.tw",
+        "mail.chihlee.edu.tw"
+      ],
+      "student_email_domain": "gm.chihlee.edu.tw",
+      "google_domains": [
+        "gm.chihlee.edu.tw"
+      ]
     },
     {
       "name": "Tajen University",

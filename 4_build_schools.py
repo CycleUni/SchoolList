@@ -146,6 +146,16 @@ CITY_BY_DOMAIN = {
     "s.eduhk.hk": "NT", "hsu.edu.hk": "NT",
 }
 
+# 學校信箱網域設定：額外學生信箱網域、預設學生信箱網域、Google Workspace 網域。
+# 僅在有確認的學校才在此處登記，未登記的學校不輸出這些欄位，匯入時保留後台設定的值。
+MAIL_BY_DOMAIN = {
+    "chihlee.edu.tw": {
+        "email_domains": ["gm.chihlee.edu.tw", "mail.chihlee.edu.tw"],
+        "student_email_domain": "gm.chihlee.edu.tw",
+        "google_domains": ["gm.chihlee.edu.tw"],
+    },
+}
+
 
 def normalize_code(value: str) -> str:
     return re.sub(r"\s+", "", str(value or "")).upper()
@@ -292,6 +302,21 @@ def main() -> int:
         else:
             it.pop("city", None)
             no_city.append(it.get("email_domain"))
+
+    # 每次重跑都以 MAIL_BY_DOMAIN 為準，表上沒有的學校不帶這些欄位以保留既有值。
+    for it in merged:
+        mail = MAIL_BY_DOMAIN.get(it.get("email_domain"))
+        if mail:
+            if "email_domains" in mail:
+                it["email_domains"] = mail["email_domains"]
+            if "student_email_domain" in mail:
+                it["student_email_domain"] = mail["student_email_domain"]
+            if "google_domains" in mail:
+                it["google_domains"] = mail["google_domains"]
+        else:
+            it.pop("email_domains", None)
+            it.pop("student_email_domain", None)
+            it.pop("google_domains", None)
 
     output = {"items": merged}
     tmp = output_path.with_suffix(output_path.suffix + ".tmp")

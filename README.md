@@ -40,6 +40,17 @@ python3 4_build_schools.py --cities-only
 
 An unknown city code fails the whole import batch (`admin.errSchoolCityUnknown`), like an invalid short code.
 
+## Mailbox domains
+
+Items may carry optional mailbox domain settings:
+- `email_domains`: JSON array of additional accepted student email domains.
+- `student_email_domain`: the primary domain students most commonly have, used to prefill the campus verification form.
+- `google_domains`: which of the school's accepted domains are Google accounts (Google Workspace).
+- `requires_verification`: optional boolean (default false). When true, campus email verification for this school is required before trading (listing, ordering, messaging, reporting).
+- `allows_student_id_verification`: optional boolean (default false). When true, allows students of this school to verify by uploading a student ID card and student number for staff review.
+
+`MAIL_BY_DOMAIN` in `4_build_schools.py` is the hand-maintained mapping for confirmed schools, re-stamped on every run. A school omitted from it carries none of these three keys in the generated JSON, so bulk importing preserves any stored values already set by admins in the backend. Do not guess or research unconfirmed domains.
+
 ## Pipeline
 
 ```bash
